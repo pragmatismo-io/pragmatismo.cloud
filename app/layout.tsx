@@ -1,19 +1,13 @@
+"use client";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Header } from "@/components/header";
 import { ModeToggle } from "@/components/ui/mode-toggle";
+import { TheMenu } from "@/components/blocks/menu";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "TWBlocks",
-  description: "Free SaaS website blocks based on React with shadcn & Tailwind",
-  keywords:
-    "tailwindcss, react, shadcn, design, webdesign, website, saas templates, saas website templates",
-  authors: [{ name: "Tommy Jepsen", url: "https://tommyjepsen.com" }],
-};
 
 export default function RootLayout({
   children,
@@ -37,15 +31,15 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
-          disableTransitionOnChange
+            disableTransitionOnChange
         >
-          <Header />
           <ModeToggle />
-
+          <TheMenu /> 
           {children}
         </ThemeProvider>
       </body>
