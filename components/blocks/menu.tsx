@@ -15,7 +15,7 @@ export const TheMenu = () => (
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Trigger className="NavigationMenuTrigger">
-            General Bots Platform <CaretDownIcon className="CaretDown" aria-hidden />
+            General Bots<CaretDownIcon className="CaretDown" aria-hidden />
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className="NavigationMenuContent">
             <ul className="List one">
@@ -28,24 +28,22 @@ export const TheMenu = () => (
                   </a>
                 </NavigationMenu.Link>
               </li>
-              
+
               <li>
                 <CalendarIcon className="ml-2 mr-1 h-6 w-8 inline-block" />
                 <span className="ListItemHeading">Channels</span>
                 <a className="ListItemLink" href="/">
-                  <p className="ListItemText">
-                  General Bots is a Large Language Models (LLMs) orchestrator, providing reading comprehension, custom channels and custom AI models.
-                  </p>
+                  <p className="ListItemText">General Bots is a Large Language Models (LLMs) orchestrator, providing reading comprehension, custom channels and custom AI models.</p>
                 </a>
               </li>
-              
+
               <ListItem href="/general-bots/vector-retrieval" title="Vector Retrieval">
-              <CalendarIcon className="mr-2 h-4 w-8" />
+                <CalendarIcon className="mr-2 h-4 w-8" />
                 Enterprise document vector retrieval, powered by Large Language Models (LLMs),\n optimizes data retrieval efficiency through advanced vector representations.
               </ListItem>
 
               <ListItem href="https://icons.radix-ui.com/" title="Open source">
-              <CalendarIcon className="mr-2 h-4 w-8" />
+                <CalendarIcon className="mr-2 h-4 w-8" />
                 Owning your LLM bot platform offers unparalleled\n benefits, including customized AI capabilities, enhanced data privacy,\n seamless integration with existing systems, and full control over content\n generation and user experience.
               </ListItem>
             </ul>
@@ -106,7 +104,7 @@ export const TheMenu = () => (
                 </a>
               </li>
               <li>
-              <div className="ListItemHeading">Virtual Assistants</div>
+                <div className="ListItemHeading">Virtual Assistants</div>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">CoPilot</p>
                 </a>
@@ -117,10 +115,10 @@ export const TheMenu = () => (
                   <p className="ListItemText">Alexa </p>
                 </a>
               </li>
-              </ul>
-              <ul className="List three">
+            </ul>
+            <ul className="List three">
               <li>
-              <div className="ListItemHeading">Team Work & Customer</div>
+                <div className="ListItemHeading">Team Work & Customer</div>
                 <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
                   <p className="ListItemText">WhatsApp and Facebook Workplace</p>
                 </a>
@@ -136,6 +134,67 @@ export const TheMenu = () => (
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
+          <NavigationMenu.Trigger className="NavigationMenuTrigger">
+            Templates <CaretDownIcon className="CaretDown" aria-hidden />
+          </NavigationMenu.Trigger>
+          <NavigationMenu.Content className="NavigationMenuContent">
+            <ul className="List one">
+              <li>
+                <div className="ListItemHeading">Small Business</div>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">CRM</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">My Company</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Restaurant</p>
+                </a>
+                <div className="ListItemHeading">Corporate</div>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Recruitment Bot</p>
+                </a>
+                <div className="ListItemHeading">Enterprise</div>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">ADResetPassword.gbapp</p>
+                </a>
+              </li>
+            </ul>
+          </NavigationMenu.Content>
+        </NavigationMenu.Item>
+
+        <NavigationMenu.Item>
+          <NavigationMenu.Trigger className="NavigationMenuTrigger">
+            Resources <CaretDownIcon className="CaretDown" aria-hidden />
+          </NavigationMenu.Trigger>
+          <NavigationMenu.Content className="NavigationMenuContent">
+            <ul className="List one">
+              <li>
+                <div className="ListItemHeading">Considering General Bots</div>
+                <a className="ListItemLink" href="/">
+                  z<p className="ListItemText">Case studies</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Onboard support</p>
+                </a>
+              </li>
+              <li>
+                <div className="ListItemHeading">Already use it</div>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Essential resources</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  z<p className="ListItemText">Help center</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Academy</p>
+                </a>
+              </li>
+            </ul>
+          </NavigationMenu.Content>
+        </NavigationMenu.Item>
+
+        <NavigationMenu.Item>
           <NavigationMenu.Link className="NavigationMenuLink" href="/pricing">
             Pricing
           </NavigationMenu.Link>
@@ -143,11 +202,10 @@ export const TheMenu = () => (
         <NavigationMenu.Indicator className="NavigationMenuIndicator">
           <div className="Arrow" />
         </NavigationMenu.Indicator>
-      
 
-      <NavigationMenu.Item>
+        <NavigationMenu.Item>
           <NavigationMenu.Link className="NavigationMenuLink" href="/contact">
-            Contact Us
+            Contact
           </NavigationMenu.Link>
         </NavigationMenu.Item>
         <NavigationMenu.Indicator className="NavigationMenuIndicator">
