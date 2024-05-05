@@ -7,7 +7,7 @@ import Image from "next/image";
 import { CalendarIcon, Check, MoveRight, PhoneCall } from "lucide-react";
 
 export const TheMenu = () => (
-  <div>
+  <div className="w-full py-20">
     <NavigationMenu.Root className="NavigationMenuRoot">
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item>
@@ -172,7 +172,7 @@ export const TheMenu = () => (
               <li>
                 <div className="ListItemHeading">Considering General Bots</div>
                 <a className="ListItemLink" href="/">
-                  z<p className="ListItemText">Case studies</p>
+                  <p className="ListItemText">Case studies</p>
                 </a>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Onboard support</p>
@@ -184,7 +184,10 @@ export const TheMenu = () => (
                   <p className="ListItemText">Essential resources</p>
                 </a>
                 <a className="ListItemLink" href="/">
-                  z<p className="ListItemText">Help center</p>
+                  <p className="ListItemText">Blog</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Help center</p>
                 </a>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Academy</p>

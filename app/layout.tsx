@@ -19,11 +19,11 @@ export default function RootLayout({
       <head>
         <meta
           property="og:title"
-          content="TWBlocks - Free SaaS website blocks"
+          content="Pragmtismo"
         />
         <meta
           property="og:description"
-          content="Free SaaS website blocks based on React with shadcn & Tailwind"
+          content="General Bots Online and custom AI models. Systems integration."
         />
         <meta
           property="og:image"
