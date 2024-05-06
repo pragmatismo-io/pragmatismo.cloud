@@ -11,7 +11,9 @@ export const TheMenu = () => (
     <NavigationMenu.Root className="NavigationMenuRoot">
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item>
+          <a href="/">
           <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} layout="fixed" className="rounded-md" loading="lazy" />
+          </a>
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Trigger className="NavigationMenuTrigger">
@@ -33,7 +35,7 @@ export const TheMenu = () => (
               <li>
                 <Check className="ml-2 mr-1 h-6 w-8 inline-block" />
                 <span className="ListItemHeading">LLM</span>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/general-bots/llm">
                   <p className="ListItemText">General Bots is a Large Language Models (LLMs) orchestrator, providing reading comprehension, custom channels and custom AI models.</p>
                 </a>
               </li>
