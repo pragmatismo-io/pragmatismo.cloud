@@ -138,7 +138,7 @@ p {
 }
 @media only screen and (min-width: 600px) {
   .List.one {
-    width: 500px;
+    width: 600px;
     grid-template-columns: 0.75fr 1fr;
   }
   .List.two {
@@ -149,7 +149,7 @@ p {
 }
 
 .ListItemLink {
-  display: block;
+  display: inline-block;
   outline: none;
   text-decoration: none;
   user-select: none;
@@ -168,6 +168,7 @@ p {
 .ListItemHeading {
   font-weight: 500;
   line-height: 1.2;
+  margin-top: 8px;
   margin-bottom: 10px;
   color: var(--gray-12);
 }

@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 
-export const Footer1 = () => {
+export const TheFooter = () => {
   const navigationItems = [
     {
       title: "Home",
@@ -60,17 +61,17 @@ export const Footer1 = () => {
           <div className="flex gap-8 flex-col items-start">
             <div className="flex gap-2 flex-col">
               <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
-                TWBlocks™
+              <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} layout="fixed" className="rounded-md" loading="lazy" />
               </h2>
               <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                Managing a small business today is already tough.
+                General Bots and custom AI models.
               </p>
             </div>
             <div className="flex gap-20 flex-row">
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                <p>1 Tailwind Way</p>
-                <p>Menlo Park</p>
-                <p>CA 94025</p>
+                <p>Rio de Janeiro - São Paulo - Paraná</p>
+                <p>Brazil</p>
+                <p></p>
               </div>
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <Link href="/">Terms of service</Link>

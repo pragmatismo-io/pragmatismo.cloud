@@ -5,7 +5,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "@/components/ui/mode-toggle";
-import { TheMenu } from "@/components/blocks/menu";
+import { TheMenu } from "./menu";
+import { TheFooter } from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,11 +37,11 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="system"
           enableSystem
-            disableTransitionOnChange
         >
           <ModeToggle />
           <TheMenu /> 
           {children}
+          <TheFooter/>
         </ThemeProvider>
       </body>
     </html>

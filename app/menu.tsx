@@ -4,10 +4,10 @@ import { CaretDownIcon } from "@radix-ui/react-icons";
 import "./styles.css";
 import classNames from "classnames";
 import Image from "next/image";
-import { CalendarIcon, Check, MoveRight, PhoneCall } from "lucide-react";
+import { BotIcon, CalendarIcon, Check, MessageCircleDashedIcon, MessageSquareIcon, MoveRight, PhoneCall, WebhookIcon, ZapIcon } from "lucide-react";
 
 export const TheMenu = () => (
-  <div className="w-full py-20">
+  <div>
     <NavigationMenu.Root className="NavigationMenuRoot">
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item>
@@ -15,7 +15,8 @@ export const TheMenu = () => (
         </NavigationMenu.Item>
         <NavigationMenu.Item>
           <NavigationMenu.Trigger className="NavigationMenuTrigger">
-            General Bots<CaretDownIcon className="CaretDown" aria-hidden />
+            General Bots
+            <CaretDownIcon className="CaretDown" aria-hidden />
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className="NavigationMenuContent">
             <ul className="List one">
@@ -30,22 +31,28 @@ export const TheMenu = () => (
               </li>
 
               <li>
-                <CalendarIcon className="ml-2 mr-1 h-6 w-8 inline-block" />
-                <span className="ListItemHeading">Channels</span>
+                <Check className="ml-2 mr-1 h-6 w-8 inline-block" />
+                <span className="ListItemHeading">LLM</span>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">General Bots is a Large Language Models (LLMs) orchestrator, providing reading comprehension, custom channels and custom AI models.</p>
                 </a>
               </li>
 
-              <ListItem href="/general-bots/vector-retrieval" title="Vector Retrieval">
-                <CalendarIcon className="mr-2 h-4 w-8" />
-                Enterprise document vector retrieval, powered by Large Language Models (LLMs),\n optimizes data retrieval efficiency through advanced vector representations.
-              </ListItem>
+              <li>
+                <PhoneCall className="ml-2 mr-1 h-6 w-8 inline-block" />
+                <span className="ListItemHeading">Vector Retrieval</span>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Chat to Enterprise documents using vector retrieval powered by Large Language Models (LLMs),\n optimizes data retrieval efficiency through advanced vector representations.</p>
+                </a>
+              </li>
 
-              <ListItem href="https://icons.radix-ui.com/" title="Open source">
-                <CalendarIcon className="mr-2 h-4 w-8" />
-                Owning your LLM bot platform offers unparalleled\n benefits, including customized AI capabilities, enhanced data privacy,\n seamless integration with existing systems, and full control over content\n generation and user experience.
-              </ListItem>
+              <li>
+                <CalendarIcon className="ml-2 mr-1 h-6 w-8 inline-block" />
+                <span className="ListItemHeading">Open source</span>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Owning your LLM bot platform offers unparalleled\n benefits, including customized AI capabilities, enhanced data privacy,\n seamless integration with existing systems, and full control over content\n generation and user experience.</p>
+                </a>
+              </li>
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
@@ -76,6 +83,9 @@ export const TheMenu = () => (
               <ListItem title="Web Automation" href="/primitives/docs/guides/styling">
                 Perform web tasks with General Bots Web Automation.
               </ListItem>
+              <ListItem title="LLM Tools" href="/primitives/docs/guides/styling">
+                Write LLL Tools in BASIC to be called by your LLM.
+              </ListItem>
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
@@ -87,22 +97,47 @@ export const TheMenu = () => (
             <ul className="List one">
               <li>
                 <div className="ListItemHeading">Channels</div>
+
                 <a className="ListItemLink" href="/">
+                <MessageSquareIcon className="ml-2 mr-1 h-6 w-8 inline-block" />
                   <p className="ListItemText">SMS</p>
                 </a>
+
                 <a className="ListItemLink" href="/">
-                  <p className="ListItemText">WhatsApp Official Account (Green tick)</p>
+                <ZapIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
+                  <p className="ListItemText">WhatsApp Official</p>
                 </a>
+
                 <a className="ListItemLink" href="/">
+                <BotIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Chatbots</p>
                 </a>
                 <a className="ListItemLink" href="/">
+                <WebhookIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Web push</p>
                 </a>
                 <a className="ListItemLink" href="/">
+                <MessageCircleDashedIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
+                  <p className="ListItemText">Transactional emails</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                <WebhookIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
+                  <p className="ListItemText">Web push</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                <MessageCircleDashedIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
+                  <p className="ListItemText">Transactional emails</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                <WebhookIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
+                  <p className="ListItemText">Web push</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                <MessageCircleDashedIcon className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Transactional emails</p>
                 </a>
               </li>
+
               <li>
                 <div className="ListItemHeading">Virtual Assistants</div>
                 <a className="ListItemLink" href="/">
@@ -114,19 +149,34 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Alexa </p>
                 </a>
-              </li>
-            </ul>
-            <ul className="List three">
-              <li>
+                <a className="ListItemLink" href="/integrations/google-chat-whatsapp-connector">
+                  <p className="ListItemText">AnyApi</p>
+                </a>
                 <div className="ListItemHeading">Team Work & Customer</div>
-                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
-                  <p className="ListItemText">WhatsApp and Facebook Workplace</p>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">WhatsApp and PowerPlatform</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">WhatsApp and Teams</p>
                 </a>
                 <a className="ListItemLink" href="/integrations/google-chat-whatsapp-connector">
                   <p className="ListItemText">WhatsApp and Google Workspace</p>
                 </a>
-                <a className="ListItemLink" href="/">
-                  <p className="ListItemText">WhatsApp and Teams</p>
+                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
+                  <p className="ListItemText">WhatsApp and Facebook Workplace</p>
+                </a>
+                <div className="ListItemHeading">Enterprise</div>
+                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
+                  <p className="ListItemText">SharePoint Online</p>
+                </a>
+                <a className="ListItemLink" href="/integrations/google-chat-whatsapp-connector">
+                  <p className="ListItemText">Project Online</p>
+                </a>
+                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
+                  <p className="ListItemText">Calling APIs in General Bots</p>
+                </a>
+                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
+                  <p className="ListItemText">Additional channels</p>
                 </a>
               </li>
             </ul>
@@ -170,7 +220,13 @@ export const TheMenu = () => (
           <NavigationMenu.Content className="NavigationMenuContent">
             <ul className="List one">
               <li>
-                <div className="ListItemHeading">Considering General Bots</div>
+                <div className="ListItemHeading">Considering the Product</div>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">General Bots on Microsoft App Source</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">General Bots on Azure Marketplace</p>
+                </a>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Case studies</p>
                 </a>
@@ -183,6 +239,9 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Essential resources</p>
                 </a>
+                <a className="ListItemLink" href="/resources/data-science">
+                  <p className="ListItemText">Data Science</p>
+                </a>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Blog</p>
                 </a>
@@ -191,6 +250,18 @@ export const TheMenu = () => (
                 </a>
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Academy</p>
+                </a>
+              </li>
+              <li>
+                <div className="ListItemHeading">Community</div>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Become a Partner</p>
+                </a>
+                <a className="ListItemLink" href="/resources/data-science">
+                  <p className="ListItemText">Partner Center Bot</p>
+                </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Social</p>
                 </a>
               </li>
             </ul>
