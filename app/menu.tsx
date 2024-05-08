@@ -8,6 +8,7 @@ import { BotIcon, CalendarIcon, Check, MessageCircleDashedIcon, MessageSquareIco
 
 export const TheMenu = () => (
   <div>
+    <div>EN CHINES PT</div>
     <NavigationMenu.Root className="NavigationMenuRoot">
       <NavigationMenu.List className="NavigationMenuList">
         <NavigationMenu.Item>

@@ -50,6 +50,9 @@ export default function Example() {
               height={1080}
             />
           </div>
+
+
+          {/* Writing GPT Tools in Word */}
         </div>
       </div>
     </div>
