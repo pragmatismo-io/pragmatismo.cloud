@@ -266,6 +266,9 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">Social</p>
                 </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Pragmatismo Cloud Status</p>
+                </a>                
               </li>
             </ul>
           </NavigationMenu.Content>
