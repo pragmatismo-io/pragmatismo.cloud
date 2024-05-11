@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "preview.pragmatismo.clouds": {
+      "appLocation": ".",
+      "outputLocation": "out",
+      "appName": "preview.pragmatismo.cloud",
+      "resourceGroup": "PROD-WebSites"
+    }
+  }
+}
