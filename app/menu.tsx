@@ -74,7 +74,7 @@ export const TheMenu = () => (
               <ListItem title="Bot Factory" href="/primitives/docs/guides/styling">
                 Unlimited chatbots and virtual assistants to turn everything conversational.
               </ListItem>
-              <ListItem title="Data analysis and insights" href="/primitives/docs/guides/animation">
+              <ListItem title="Talk to data" href="/features/talk-to-data">
                 Data analysis and insights serve as the foundation for data-driven decision-making, guiding conversations in a conversational and actionable manner.
               </ListItem>
               <ListItem title="Broadcast" href="/primitives/docs/overview/accessibility">
@@ -227,6 +227,10 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">General Bots on Microsoft App Source</p>
                 </a>
+                <a className="ListItemLink" href="/">
+                  <p className="ListItemText">Becoming an AI-Powered Organization with General Bots</p>
+                </a>
+                
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">General Bots on Azure Marketplace</p>
                 </a>
