@@ -80,6 +80,7 @@ export const TheMenu = () => (
               <li>
                 <Image
                   src="/icons/llm.svg"
+                  alt="Pragmatismo Logo"
                   width={15}
                   height={15}
                   className="ml-2 mr-1 h-6 w-8  inline-block"
@@ -201,6 +202,7 @@ export const TheMenu = () => (
                 >
                   <Image
                     src="/icons/whatsapp.svg"
+                    alt="Logo"
                     width={24}
                     height={24}
                     className="ml-2 mr-1 h-6 w-8  inline-block"
@@ -257,6 +259,7 @@ export const TheMenu = () => (
 
                   <Image
                     src="/icons/power-platform.svg"
+                    alt="Logo"
                     width={15}
                     height={15}
                     className="ml-2 mr-1 h-6 w-8  inline-block"
@@ -297,6 +300,7 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/">
                   <Image
                     src="/icons/copilot.svg"
+                    alt="Logo"
                     width={15}
                     height={15}
                     className="ml-2 mr-1 h-6 w-8  inline-block"
@@ -308,6 +312,7 @@ export const TheMenu = () => (
 
                 <a className="ListItemLink" href="/">
                   <Image
+                    alt="Logo"
                     src="/icons/chatgpt.svg"
                     width={15}
                     height={15}
@@ -319,6 +324,7 @@ export const TheMenu = () => (
 
                 <a className="ListItemLink" href="/">
                   <Image
+                    alt="Logo"
                     src="/icons/alexa.svg"
                     width={15}
                     height={15}
@@ -337,6 +343,7 @@ export const TheMenu = () => (
                   href="/integrations/facebook-workplace-whatsapp"
                 >
                   <Image
+                    alt="Logo"
                     src="/icons/sharepoint.svg"
                     width={15}
                     height={15}
@@ -351,6 +358,7 @@ export const TheMenu = () => (
                   href="/integrations/google-chat-whatsapp-connector"
                 >
                   <Image
+                    alt="Logo"
                     src="/icons/project.svg"
                     width={15}
                     height={15}
@@ -374,63 +382,64 @@ export const TheMenu = () => (
               <li>
                 <div className="ListItemHeading">Small Business</div>
                 <a className="ListItemLink" href="/">
-                <Image
-                      src="/icons/general-bots.svg"
-                      alt="Pragmatismo Logo"
-                      width={32}
-                      height={32}
-                      className="rounded-md   inline-block m-2"
-                      loading="lazy"
-                    />
+                  <Image
+
+                    src="/icons/general-bots.svg"
+                    alt="Pragmatismo Logo"
+                    width={32}
+                    height={32}
+                    className="rounded-md   inline-block m-2"
+                    loading="lazy"
+                  />
 
                   <p className="ListItemText">CRM</p>
                 </a>
                 <a className="ListItemLink" href="/">
-                <Image
-                      src="/icons/general-bots.svg"
-                      alt="Pragmatismo Logo"
-                      width={32}
-                      height={32}
-                      className="rounded-md   inline-block m-2"
-                      loading="lazy"
-                    />
+                  <Image
+                    src="/icons/general-bots.svg"
+                    alt="Pragmatismo Logo"
+                    width={32}
+                    height={32}
+                    className="rounded-md   inline-block m-2"
+                    loading="lazy"
+                  />
                   <p className="ListItemText">My Company</p>
                 </a>
                 <a className="ListItemLink" href="/">
-                <Image
-                      src="/icons/general-bots.svg"
-                      alt="Pragmatismo Logo"
-                      width={32}
-                      height={32}
-                      className="rounded-md   inline-block m-2"
-                      loading="lazy"
-                    />
+                  <Image
+                    src="/icons/general-bots.svg"
+                    alt="Pragmatismo Logo"
+                    width={32}
+                    height={32}
+                    className="rounded-md   inline-block m-2"
+                    loading="lazy"
+                  />
                   <p className="ListItemText">Restaurant</p>
                 </a>
-                </li>
-                <li>
+              </li>
+              <li>
                 <div className="ListItemHeading">Corporate</div>
                 <a className="ListItemLink" href="/">
-                <Image
-                      src="/icons/general-bots.svg"
-                      alt="Pragmatismo Logo"
-                      width={32}
-                      height={32}
-                      className="rounded-md   inline-block m-2"
-                      loading="lazy"
-                    />
+                  <Image
+                    src="/icons/general-bots.svg"
+                    alt="Pragmatismo Logo"
+                    width={32}
+                    height={32}
+                    className="rounded-md   inline-block m-2"
+                    loading="lazy"
+                  />
                   <p className="ListItemText">Recruitment Bot</p>
                 </a>
                 <div className="ListItemHeading">Enterprise</div>
                 <a className="ListItemLink" href="/">
-                <Image
-                      src="/icons/entra.svg"
-                      alt="Pragmatismo Logo"
-                      width={32}
-                      height={32}
-                      className="rounded-md   inline-block m-2"
-                      loading="lazy"
-                    />
+                  <Image
+                    src="/icons/entra.svg"
+                    alt="Pragmatismo Logo"
+                    width={32}
+                    height={32}
+                    className="rounded-md   inline-block m-2"
+                    loading="lazy"
+                  />
                   <p className="ListItemText">ADResetPassword.gbapp</p>
                 </a>
               </li>
@@ -481,7 +490,7 @@ export const TheMenu = () => (
                   <p className="ListItemText">Help center</p>
                 </a>
                 <a className="ListItemLink" href="/">
-                <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
+                  <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Academy</p>
                 </a>
               </li>
