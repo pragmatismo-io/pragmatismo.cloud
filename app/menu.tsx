@@ -433,6 +433,7 @@ export const TheMenu = () => (
                 <div className="ListItemHeading">Enterprise</div>
                 <a className="ListItemLink" href="/">
                   <Image
+                  
                     src="/icons/entra.svg"
                     alt="Pragmatismo Logo"
                     width={32}
@@ -518,6 +519,7 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="https://appsource.microsoft.com/pt-pt/product/web-apps/pragmatismoio-4835990.generalbot?tab=overview">
                   <p className="ListItemText">
                     <Image
+                    alt="Logo"
                       src="/icons/microsoft.svg"
                       width={24}
                       height={24}
@@ -532,6 +534,7 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/">
                   <p className="ListItemText">
                     <Image
+                    alt="Logo"
                       src="/icons/azure.svg"
                       width={24}
                       height={24}
