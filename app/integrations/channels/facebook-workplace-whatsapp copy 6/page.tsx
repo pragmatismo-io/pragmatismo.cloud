@@ -31,9 +31,8 @@ export default function FacebookWorkplaceWhatsApp () {
     </div>
 
     {/* https://www.workplace.com/workplace-microsoft */}
-    {/* https://docs.anthropic.com/claude/prompt-library */}
+
 
   </div>
 )
 }
-//https://github.com/LouisShark/chatgpt_system_prompt/blob/main/prompts/gpts/SnF78wo4p_Artful_Greeting_AI_Cards.md

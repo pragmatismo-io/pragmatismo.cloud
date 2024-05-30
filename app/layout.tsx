@@ -1,6 +1,5 @@
 "use client";
 
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -16,19 +15,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html suppressHydrationWarning>
       <head>
         <meta
           property="og:title"
-          content="Pragmtismo"
+          content="Pragamtismo"
         />
         <meta
           property="og:description"
-          content="General Bots Online and custom AI models. Systems integration."
+          content="General Bots® Online and custom AI models. Systems integration."
         />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/tommyjepsen/twblocks/main/public/hero4.png?raw=true"
+          content="https://raw.githubusercontent.com/tommyjepsen/twblocks/main/hero4.png?raw=true"
         />
       </head>
       <body className={inter.className}>

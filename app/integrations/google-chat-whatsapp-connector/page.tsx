@@ -15,7 +15,7 @@ export default function GoogleChatWhatsApp() {
             <div className="flex gap-2 flex-col">
               <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">Connecting the AI World: Introducing WhatsApp and Google Chat Connector</h2>
               <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-                Welcome to the future of seamless communication and collaboration! In digital age, where businesses thrive on efficient connectivity and advanced automation, the General Bots WhatsApp and Google Chat Connector emerges as a game-changer. This innovative solution bridges the gap between customer-facing WhatsApp interactions and the internal governance of Google Chat, empowering enterprises with unparalleled AI-driven capabilities.
+                Welcome to the future of seamless communication and collaboration! In digital age, where businesses thrive on efficient connectivity and advanced automation, the General Bots® WhatsApp and Google Chat Connector emerges as a game-changer. This innovative solution bridges the gap between customer-facing WhatsApp interactions and the internal governance of Google Chat, empowering enterprises with unparalleled AI-driven capabilities.
               </p>
             </div>
           </div>
@@ -31,8 +31,8 @@ export default function GoogleChatWhatsApp() {
               <Badge>Platform</Badge>
             </div>
             <div className="flex gap-2 flex-col">
-              <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">Elevate Your Small Business with Essential: The General Bots WhatsApp and Google Chat Connector</h2>
-              <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">Managing a small business today is already tough, juggling customer engagements on WhatsApp while ensuring internal collaboration on Google Chat remains efficient and compliant. Enter Essential, the General Bots WhatsApp and Google Chat Connector, designed to simplify your communication landscape and amplify your business capabilities.</p>
+              <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">Elevate Your Small Business with Essential: The General Bots® WhatsApp and Google Chat Connector</h2>
+              <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">Managing a small business today is already tough, juggling customer engagements on WhatsApp while ensuring internal collaboration on Google Chat remains efficient and compliant. Enter Essential, the General Bots® WhatsApp and Google Chat Connector, designed to simplify your communication landscape and amplify your business capabilities.</p>
             </div>
             <div className="flex gap-10 pt-12 flex-col w-full">
               <div className="grid grid-cols-2 items-start lg:grid-cols-3 gap-10">

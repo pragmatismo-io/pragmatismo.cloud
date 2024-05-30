@@ -118,3 +118,12 @@ export default function DataScience () {
     </div>
   </div>
 )}
+
+// case '.csv':
+// case '.docx':
+// case '.epub':
+// case '.json':
+// case '.md':
+// case '.pdf':
+// case '.txt':
+// case '.txt':

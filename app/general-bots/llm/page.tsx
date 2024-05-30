@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Check } from "lucide-react";
 
-export default function Example() {
+export default function Page() {
   return (
     <div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
@@ -15,9 +15,9 @@ export default function Example() {
               <Badge variant="outline">We&apos;re live!</Badge>
             </div>
             <div className="flex gap-4 flex-col">
-              <h1 className="text-5xl md:text-7xl max-w-lg tracking-tighter text-left font-regular">Introducing General Bots for Word™</h1>
+              <h1 className="text-5xl md:text-7xl max-w-lg tracking-tighter text-left font-regular">Introducing General Bots® for Word™</h1>
               <p className="text-xl leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">
-                Unleash the power of custom LLM functions with unparalleled simplicity, right from your Microsoft Word interface. With General Bots for Word™, writing custom LLM functions becomes as easy as typing a document. Harness the advanced capabilities of GPT to craft intricate functions and automate complex tasks, all within the familiar environment of MS Word. Say goodbye to switching between multiple applications. General Bots for Word™ seamlessly integrates with your existing
+                Unleash the power of custom LLM functions with unparalleled simplicity, right from your Microsoft Word interface. With General Bots® for Word™, writing custom LLM functions becomes as easy as typing a document. Harness the advanced capabilities of GPT to craft intricate functions and automate complex tasks, all within the familiar environment of MS Word. Say goodbye to switching between multiple applications. General Bots® for Word™ seamlessly integrates with your existing
                 workflow, allowing you to write, edit, and execute custom LLM functions without ever leaving the comfort of Word.
               </p>
             </div>
@@ -100,3 +100,15 @@ export default function Example() {
     </div>
   );
 }
+
+
+// Use the code to automate customer service inquiries by training your GPT-3 based AI assistant to respond to common complaints and questions in your business.
+// You can use the code to generate automated reports and summaries based on data scraped from your company’s website or social media platforms.
+// Use the code to create a chatbot that can answer frequently asked questions on your website or in your customer support chat.
+// Use the code to generate automated email responses for customer inquiries, based on the specific content of the inquiry.
+// Use the code to generate automated social media posts for your business, using data scraped from your website or other sources.
+// Use the code to generate automated product descriptions for your e-commerce site, using data scraped from your competitors’ sites.
+// Use the code to generate automated blog posts for your business, using data scraped from industry news sources.
+// Use the code to generate automated SEO-friendly content for your website, using data scraped from your competitors’ sites and popular keywords.
+// Use the code to generate automated summaries of meetings or conference calls, by sending the transcript to the GPT-3 API.
+// Use the code to generate automated language translations for your business, by sending text to the GPT-3 API in one language and having it translate it to another.

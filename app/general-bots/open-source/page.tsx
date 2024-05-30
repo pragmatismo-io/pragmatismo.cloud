@@ -1,48 +1,10 @@
-"use client";
-
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
 
-import {
-  FacebookLoginButton,
-  GoogleLoginButton,
-  GithubLoginButton,
-  TwitterLoginButton,
-  AmazonLoginButton,
-  InstagramLoginButton,
-  LinkedInLoginButton,
-  MicrosoftLoginButton,
-  BufferLoginButton,
-  TelegramLoginButton,
-  AppleLoginButton,
-  DiscordLoginButton,
-  SlackLoginButton,
-  OktaLoginButton,
-  YahooLoginButton,
-  ZaloLoginButton,
-  GitlabLoginButton,
-  MetamaskLoginButton,
-  TikTokLoginButton,
-  XLoginButton,
-} from "react-social-login-buttons";
-import React from "react";
-import ReactDOM from "react-dom";
-import "./styles.css";
-
-
-
 export default function Page() {
-  function handleClick() {
-    alert("Thank you for using React Social Login Buttons!");
-  }
-
   return (
     <div className="bg-white">
-
-
-
-
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
@@ -62,27 +24,23 @@ export default function Page() {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Boost your productivity.
               <br />
-              Start using General Bots® today.
+              Start using our app today.
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Do automation the self way. Do your work from your WhatsApp or <a
-                href="/features/channels">any channel</a>.
+              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
             </p>
-            <div>
-              <FacebookLoginButton onClick={handleClick} />
-              <GoogleLoginButton onClick={handleClick} />
-              <GithubLoginButton onClick={handleClick} />
-              <InstagramLoginButton onClick={handleClick} />
-              <MicrosoftLoginButton onClick={handleClick} />
-              <AppleLoginButton onClick={handleClick} />
-              <TikTokLoginButton onClick={handleClick} />
-            </div>    
-          </div>
-          <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+              <a
+                href="#"
+                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                Get started
+              </a>
               <a href="#" className="text-sm font-semibold leading-6 text-white">
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
+          </div>
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               className="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
@@ -91,8 +49,14 @@ export default function Page() {
               width={1824}
               height={1080}
             />
-
           </div>
+          {/* ChatGPT is a great tool for answering general questions, but it falls short when it comes to answering domain-specific questions as it often makes up answers to fill its knowledge gaps and doesn't cite sources. To solve this issue, this starter app uses embeddings coupled with vector search. This app shows how OpenAI's GPT-3 API can be used to create conversational interfaces for domain-specific knowledge.
+
+Embeddings are vectors of floating-point numbers that represent the "relatedness" of text strings. They are very useful for tasks like ranking search results, clustering, and classification. In text embeddings, a high cosine similarity between two embedding vectors indicates that the corresponding text strings are highly related.
+
+This app uses embeddings to generate a vector representation of a document and then uses vector search to find the most similar documents to the query. The results of the vector search are then used to construct a prompt for GPT-3, which generates a response. The response is then streamed back to the user.*/}
+
+          {/* Writing GPT Tools in Word */}
         </div>
       </div>
     </div>

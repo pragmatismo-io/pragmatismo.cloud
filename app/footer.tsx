@@ -61,10 +61,10 @@ export const TheFooter = () => {
           <div className="flex gap-8 flex-col items-start">
             <div className="flex gap-2 flex-col">
               <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
-              <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} layout="fixed" className="rounded-md" loading="lazy" />
+              <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
               </h2>
               <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                General Bots and custom AI models.
+                General Bots® and custom AI models.
               </p>
             </div>
             <div className="flex gap-20 flex-row">

@@ -19,7 +19,7 @@ export default function FacebookWorkplaceWhatsApp () {
               Connecting the AI World: Introducing WhatsApp and Google Chat Connector
             </h2>
             <p className="text-lg max-w-xl lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-            Welcome to the future of seamless communication and collaboration! In digital age, where businesses thrive on efficient connectivity and advanced automation, the General Bots WhatsApp and Google Chat Connector emerges as a game-changer. This innovative solution bridges the gap between customer-facing WhatsApp interactions and the internal governance of Google Chat, empowering enterprises with unparalleled AI-driven capabilities.
+            Welcome to the future of seamless communication and collaboration! In digital age, where businesses thrive on efficient connectivity and advanced automation, the General Bots® WhatsApp and Google Chat Connector emerges as a game-changer. This innovative solution bridges the gap between customer-facing WhatsApp interactions and the internal governance of Google Chat, empowering enterprises with unparalleled AI-driven capabilities.
             </p>
           </div>
         </div>
