@@ -9,42 +9,64 @@ export const TheFooter = () => {
       description: "",
     },
     {
-      title: "Product",
-      description: "Managing a small business today is already tough.",
+      title: "General Bots",
+      href: "/general-bots",
+      description: "",
       items: [
         {
-          title: "Reports",
-          href: "/reports",
+          title: "LLM",
+          href: "/general-bots/llm",
         },
         {
-          title: "Statistics",
-          href: "/statistics",
+          title: "Vector Search",
+          href: "/general-bots/vector-search",
         },
         {
-          title: "Dashboards",
-          href: "/dashboards",
+          title: "AI Search",
+          href: "/features/ai-search",
         },
         {
-          title: "Recordings",
-          href: "/recordings",
+          title: "Content Generation",
+          href: "/features/content-generation",
         },
+        {
+          title: "Bot Factory",
+          href: "/features/bot-factory",
+        },
+        {
+          title: "Talk to data",
+          href: "/features/talk-to-data",
+        },
+        {
+          title: "Pricing",
+          href: "/pricing",
+        },
+
       ],
     },
     {
       title: "Company",
-      description: "Managing a small business today is already tough.",
+      description: "Create your own bot today with General Bots.",
       items: [
         {
-          title: "About us",
+          title: "About Us",
           href: "/about",
         },
         {
-          title: "Fundraising",
-          href: "/fundraising",
+          title: "Help Center",
+          href: "/resources/help-center",
         },
         {
-          title: "Investors",
-          href: "/investors",
+          title: "How to become a Partner",
+          href: "/resources/partners",
+        },
+        {
+          title: "On Board Support",
+          href: "/resources/on-board-support",
+        },
+        {
+          title: "Blog",
+          href: "blog.pragmatismo.cloud",
         },
         {
           title: "Contact us",
