@@ -19,7 +19,7 @@ export const TheFooter = () => {
         },
         {
           title: "Vector Search",
-          href: "/general-bots/vector-search",
+          href: "/general-bots/vector-retrieval",
         },
         {
           title: "AI Search",
@@ -62,11 +62,11 @@ export const TheFooter = () => {
         },
         {
           title: "On Board Support",
-          href: "/resources/considering/on-board-support",
+          href: "/resources/considering/onboard-support",
         },
         {
           title: "Blog",
-          href: "blog.pragmatismo.cloud",
+          href: "https://blog.pragmatismo.cloud",
         },
         {
           title: "Contact us",
