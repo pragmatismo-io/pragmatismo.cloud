@@ -54,15 +54,15 @@ export const TheFooter = () => {
         },
         {
           title: "Help Center",
-          href: "/resources/help-center",
+          href: "https://help.pragmatismo.cloud",
         },
         {
           title: "How to become a Partner",
-          href: "/resources/partners",
+          href: "/resources/community/become-a-partner",
         },
         {
           title: "On Board Support",
-          href: "/resources/on-board-support",
+          href: "/resources/considering/on-board-support",
         },
         {
           title: "Blog",
@@ -83,7 +83,9 @@ export const TheFooter = () => {
           <div className="flex gap-8 flex-col items-start">
             <div className="flex gap-2 flex-col">
               <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
+              <Link href="/">
               <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
+              </Link>
               </h2>
               <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 General Bots® and custom AI models.
@@ -96,8 +98,8 @@ export const TheFooter = () => {
                 <p></p>
               </div>
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                <Link href="/">Terms of service</Link>
-                <Link href="/">Privacy Policy</Link>
+                <Link href="/terms">Terms of service</Link>
+                <Link href="/privacy">Privacy Policy</Link>
               </div>
             </div>
           </div>

@@ -33,7 +33,7 @@ export const TheMenu = () => (
             <ul className="List one">
               <li style={{ gridRow: "span 4" }}>
                 <NavigationMenu.Link asChild>
-                  <a className="Callout" href="/">
+                  <a className="Callout" href="/general-bots">
                     <Image src="/icons/general-bots-text.svg" alt="Pragmatismo Logo" width={302} height={302} layout="fixed" className="rounded-md" loading="lazy" />
                     <div className="CalloutHeading">LLMs on the go</div>
                     <p className="CalloutText">Use familiar tools like MS Word or Excel to create your own LLM bot today on WhatsApp.</p>
@@ -89,16 +89,16 @@ export const TheMenu = () => (
               <ListItem title="Broadcast" href="/features/broadcast">
                 Effortlessly reach out to vast audiences on WhatsApp or Enterprise. Craft bespoke conversation experiences by customizing AI-backed message replies.
               </ListItem>
-              <ListItem title="Train with well-known tools" href="/features/training">
+              <ListItem title="Train with well-known tools" href="/features/trainning">
                 Use Tools you know to edit content like MS Word or Excel.Train by using natural language with no code or diagram skills.
               </ListItem>
-              <ListItem title="Web Automation" href="/web-automation">
+              <ListItem title="Web Automation" href="/features/web-automation">
                 Perform web tasks with General Bots® Web Automation scrapping data from sites or getting key indicators from online services.
               </ListItem>
-              <ListItem title="LLM Tools" href="/llm-tools">
+              <ListItem title="LLM Tools" href="/features/llm-tools">
                 Streamline the creation of web services in BASIC and develop LLM tools, seamlessly callable by your Large Language Models.
               </ListItem>
-              <ListItem title="Calling APIs" href="/llm-tools">
+              <ListItem title="Calling APIs" href="/features/create-apis-in-word">
                 In simplified BASIC code, you can easly send and receive data from remote servers by using HTTP rest.
               </ListItem>
             </ul>
@@ -128,27 +128,27 @@ export const TheMenu = () => (
                   <CgWebsite className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Web Chat in your site</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/channels/instagram-direct-messages">
                   <FaInstagram className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Instagram DM</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/channels/email">
                   <MdOutlineEmail className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">E-mail</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/channels/microsoft-teams">
                   <PiMicrosoftTeamsLogoFill className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Microsoft Teams</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/channels/google-chat">
                   <SiGooglechat className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Google Chat</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/channels/facebook-pages">
                   <MdFacebook className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Facebook Pages</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/channels/slack">
                   <IoLogoSlack className="ml-2 mr-1 h-6 w-8  inline-block " />
                   <p className="ListItemText">Slack</p>
                 </a>
@@ -156,7 +156,7 @@ export const TheMenu = () => (
 
               <li>
                 <div className="ListItemHeading">Team Work & Customer</div>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/team-work/whatsapp-powerplatform">
                   <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block " style={{ color: "gray" }} />
                   <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
 
@@ -164,19 +164,19 @@ export const TheMenu = () => (
 
                   <p className="ListItemText">WhatsApp and PowerPlatform</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/team-work/whatsapp-microsoft-teams">
                   <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
                   <PiMicrosoftTeamsLogoFill className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">WhatsApp and Teams</p>
                 </a>
-                <a className="ListItemLink" href="/integrations/google-chat-whatsapp-connector">
+                <a className="ListItemLink" href="/integrations/team-work/google-workspace-whatsapp">
                   <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
                   <SiGooglechat className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">WhatsApp and Workspace</p>
                 </a>
-                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
+                <a className="ListItemLink" href="/integrations/team-work/whatsapp-facebook-workplace">
                   <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
                   <MdFacebook className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
@@ -184,29 +184,29 @@ export const TheMenu = () => (
                 </a>
 
                 <div className="ListItemHeading">Virtual Assistants</div>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/virtual-assistants/microsoft-copilot">
                   <Image src="/icons/copilot.svg" alt="Logo" width={15} height={15} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
 
                   <p className="ListItemText">CoPilot</p>
                 </a>
 
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/virtual-assistants/chat-gpt">
                   <Image alt="Logo" src="/icons/chatgpt.svg" width={15} height={15} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
                   <p className="ListItemText">ChatGPT plugins</p>
                 </a>
 
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/integrations/virtual-assistants/alexa">
                   <Image alt="Logo" src="/icons/alexa.svg" width={15} height={15} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
                   <p className="ListItemText">Alexa </p>
                 </a>
 
                 <div className="ListItemHeading">Enterprise</div>
-                <a className="ListItemLink" href="/integrations/facebook-workplace-whatsapp">
+                <a className="ListItemLink" href="/integrations/enterprise/sharepoint">
                   <Image alt="Logo" src="/icons/sharepoint.svg" width={15} height={15} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
 
                   <p className="ListItemText">SharePoint</p>
                 </a>
-                <a className="ListItemLink" href="/integrations/google-chat-whatsapp-connector">
+                <a className="ListItemLink" href="/integrations/enterprise/project">
                   <Image alt="Logo" src="/icons/project.svg" width={15} height={15} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
                   <p className="ListItemText">Project Online</p>
                 </a>
@@ -223,28 +223,28 @@ export const TheMenu = () => (
             <ul className="List one">
               <li>
                 <div className="ListItemHeading">Small Business</div>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=crm.gbai">
                   <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
 
                   <p className="ListItemText">CRM</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new?template=mycompany.gbai">
                   <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                   <p className="ListItemText">My Company</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=restaurant.gbai">
                   <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                   <p className="ListItemText">Restaurant</p>
                 </a>
               </li>
               <li>
                 <div className="ListItemHeading">Corporate</div>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=recruitment.gbai">
                   <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
-                  <p className="ListItemText">Recruitment Bot</p>
+                  <p className="ListItemText">Recruitment</p>
                 </a>
                 <div className="ListItemHeading">Enterprise</div>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=ADResetPassword.gbapp">
                   <Image src="/icons/entra.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                   <p className="ListItemText">ADResetPassword.gbapp</p>
                 </a>
@@ -261,61 +261,60 @@ export const TheMenu = () => (
             <ul className="List one">
               <li>
                 <div className="ListItemHeading">Considering the Product</div>
-                <a className="ListItemLink" href="https://azuremarketplace.microsoft.com/pt-br/marketplace/apps/pragmatismoio-4835990.generalbot?tab=overview">
+                <a className="ListItemLink" href="/resources/considering/ai-powered-org">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
-
                   <p className="ListItemText">AI-powered org. </p>
                 </a>
 
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/resources/considering/case-studies">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Case studies</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/resources/considering/customers">
+                  <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
+                  <p className="ListItemText">Customers</p>
+                </a>
+                <a className="ListItemLink" href="/resources/considering/onboard-support">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Onboard support</p>
                 </a>
               </li>
               <li>
                 <div className="ListItemHeading">Already use it</div>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="/resources/already-using/essential-resources">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Essential resources</p>
                 </a>
-                <a className="ListItemLink" href="/resources/data-science">
+                <a className="ListItemLink" href="/resources/already-using/data-science">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Data Science</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://blog.pragmatismo.cloud">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Blog</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://support.pragmatismo.cloud">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Help center</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://status.pragmatismo.cloud">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
-                  <p className="ListItemText">Academy</p>
+                  <p className="ListItemText">Pragmatismo Cloud Status</p>
                 </a>
               </li>
               <li>
                 <div className="ListItemHeading">Community</div>
-                <a className="ListItemLink " href="/">
+                <a className="ListItemLink " href="/resources/community/become-a-partner">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Become a Partner</p>
                 </a>
-                <a className="ListItemLink" href="/resources/data-science">
+                <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pcbot">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText ">Partner Center Bot</p>
                 </a>
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://github.com/generalbots">
                   <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <p className="ListItemText">Social</p>
-                </a>
-                <a className="ListItemLink" href="/">
-                  <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
-                  <p className="ListItemText">Pragmatismo Cloud Status</p>
                 </a>
               </li>
               <li>
@@ -327,7 +326,7 @@ export const TheMenu = () => (
                   </p>
                 </a>
 
-                <a className="ListItemLink" href="/">
+                <a className="ListItemLink" href="https://azuremarketplace.microsoft.com/pt-br/marketplace/apps/pragmatismoio-4835990.generalbot?tab=overview">
                   <p className="ListItemText">
                     <Image alt="Logo" src="/icons/azure.svg" width={24} height={24} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
                     Azure Marketplace
