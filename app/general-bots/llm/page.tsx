@@ -32,13 +32,13 @@ export default function Page() {
           </div>
           <div className="grid grid-cols-2 gap-8">
             <div className="bg-muted rounded-md row-span-2">
-              <Image src="/word-robot.jpeg" alt="Word Robot"  className="rounded-md" width={1024} height={2400} loading="lazy" />
+              <Image src="/word-robot.jpeg" alt="Word Robot" className="rounded-md" width={1024} height={2400} loading="lazy" />
             </div>
             <div className="bg-muted rounded-md aspect-square">
-              <Image src="/pc-word.jpeg" alt="PC Word"  className="rounded-md" width={1024} height={1024} loading="lazy" />
+              <Image src="/pc-word.jpeg" alt="PC Word" className="rounded-md" width={1024} height={1024} loading="lazy" />
             </div>
             <div className="bg-muted rounded-md aspect-square">
-              <Image src="/llm-documents.jpeg" alt="LLM Documents"  className="rounded-md" width={1024} height={2400} loading="lazy" />
+              <Image src="/llm-documents.jpeg" alt="LLM Documents" className="rounded-md" width={1024} height={2400} loading="lazy" />
             </div>
           </div>
         </div>
@@ -86,11 +86,117 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-muted rounded-md aspect-square">
-            
-              <Image src="/word-system-prompt.png" alt="LLM Documents"  className="rounded-md" width={1024} height={1024} loading="lazy" />
-            
-            </div>  
 
+              <Image src="/word-system-prompt.png" alt="LLM Documents" className="rounded-md" width={1024} height={1024} loading="lazy" />
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="container mt-40 mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className="flex gap-4 flex-col items-start">
+            <div>
+              <Badge>Choose your LLM provider</Badge>
+            </div>
+            <div className="flex gap-2 flex-col">
+              <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
+                General Bots uses a layer between you and providers
+              </h2>
+              <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
+                Avoid vendor lock-in
+                complications by streamlining main LLM providers.
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="grid text-left grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 w-full gap-2">
+              <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
+                <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                  <Image src="/gpt4all.svg" alt="Word Robot" className="rounded-md" width={200} height={200} loading="lazy" />
+                </p>
+              </div>
+              <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
+                <p className="text-base leading-relaxed tracking-tight align-middle text-muted-foreground max-w-xl text-left">
+                  <Image src="/open-ai.svg" alt="Word Robot" className="rounded-md " width={400} height={400} loading="lazy" />
+                </p>
+              </div>
+              <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
+                <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                  <Image src="/claude.svg" alt="Word Robot" className="rounded-md" width={200} height={200} loading="lazy" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="container mt-40 mx-auto">
+      <div className="flex flex-col text-center bg-muted rounded-md p-4 lg:p-14 gap-8 items-center">
+        <div>
+          <Badge>You own the platform</Badge>
+        </div>
+        <div className="flex flex-col gap-2">
+          <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
+            The costs behind the gears are exposed.
+          </h3>
+          <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">
+            We provide clear insight into the expenses involved in utilizing our platform, empowering you to make informed decisions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+      <div className="container mx-auto">
+        <div className="grid border rounded-lg container py-8 grid-cols-4 gap-8 items-center lg:grid-cols-5">
+          <div className="flex gap-10 flex-col">
+            <div className="flex gap-4 flex-col">
+              <div>
+                <Badge variant="outline">Platform</Badge>
+              </div>
+              <div className="flex gap-2 flex-col">
+                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                  LLM architecture of the orchestrator.
+                </p>
+              </div>
+            </div>
+            <div className="grid lg:pl-6 grid-cols-1 sm:grid-cols-1 items-start lg:grid-cols-1 gap-6">
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Easy to use</p>
+                  <p className="text-muted-foreground text-sm">
+                    We&apos;ve made it easy to use and understand.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Fast and reliable</p>
+                  <p className="text-muted-foreground text-sm">
+                    We&apos;ve made it fast and reliable.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Beautiful and modern</p>
+                  <p className="text-muted-foreground text-sm">
+                    We&apos;ve made it beautiful and modern.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-muted align-middle col-span-4">
+            <Image src="/rag-diagram.svg" alt="Word Robot" className="rounded-md bm-10" width={1024} height={1024} loading="lazy" />
           </div>
         </div>
       </div>
