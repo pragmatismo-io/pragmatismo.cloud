@@ -65,8 +65,7 @@ export default function Page() {
               Start using General Bots® today.
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Do automation the self way. Do your work from your WhatsApp or <a
-                href="/features/channels">any channel</a>.
+              Do automation the self way. Do your work from your WhatsApp or any channel.
             </p>
             <div>
               <FacebookLoginButton onClick={handleClick} />

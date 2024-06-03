@@ -1,3 +1,3 @@
 radix-ui
-twblock.com
+twblocks.com
 https://github.com/shadcn-ui/ui/tree/main/apps/www/registry
