@@ -10,7 +10,8 @@ import { FaArrowRightArrowLeft } from "react-icons/fa6";
 import { GrResources } from "react-icons/gr";
 import { IoLogoSlack } from "react-icons/io";
 import { MdFacebook, MdOutlineDocumentScanner, MdOutlineEmail } from "react-icons/md";
-import { PiMicrosoftTeamsLogoFill, PiWhatsappLogoLight } from "react-icons/pi";
+import { PiMicrosoftTeamsLogo, PiMicrosoftTeamsLogoFill, PiMicrosoftTeamsLogoLight, PiWhatsappLogoLight } from "react-icons/pi";
+import { PiMicrosoftTeamsLogoThin } from "react-icons/pi";
 import { SiGooglechat } from "react-icons/si";
 import { TbWorldCheck } from "react-icons/tb";
 import "./styles.css";
@@ -137,7 +138,7 @@ export const TheMenu = () => (
                   <p className="ListItemText">E-mail</p>
                 </a>
                 <a className="ListItemLink" href="/integrations/channels/microsoft-teams">
-                  <PiMicrosoftTeamsLogoFill className="ml-2 mr-1 h-6 w-8  inline-block" />
+                <PiMicrosoftTeamsLogo  className="ml-2 mr-1 h-6 w-8  inline-block" />
                   <p className="ListItemText">Microsoft Teams</p>
                 </a>
                 <a className="ListItemLink" href="/integrations/channels/google-chat">
@@ -173,7 +174,8 @@ export const TheMenu = () => (
                 <a className="ListItemLink" href="/integrations/team-work/google-workspace-whatsapp">
                   <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                   <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
-                  <SiGooglechat className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
+                  <Image src="/google-chat.svg" alt="Logo" width={15} height={15} loading="lazy" className="ml-2 mr-1 h-6 w-8  inline-block" />
+                  
                   <p className="ListItemText">WhatsApp and Workspace</p>
                 </a>
                 <a className="ListItemLink" href="/integrations/team-work/whatsapp-facebook-workplace">
