@@ -23,11 +23,10 @@ export const TheMenu = () => {
     {
       title: "Home",
       href: "/",
-      description: "",
     },
     {
       title: "General Bots",
-      description: "Bot Factory.",
+      href: '/general-bots',
       items: [
         {
           title: "LLM",
@@ -39,39 +38,33 @@ export const TheMenu = () => {
         },
         {
           title: "Open source",
-          href: "/open-source",
+          href: "/general-bots/open-source",
         },
       ],
     },
     {
       title: "Features",
-      description: "Managing a small business today is already tough.",
       href: "/features",
     },
     {
       title: "Integrations",
-      description: "Managing a small business today is already tough.",
       href: "/features",
     },
     {
       title: "Templates",
-      description: "Managing a small business today is already tough.",
-      href: "/features",
+      href: "/templates",
     },
     {
       title: "Resources",
-      description: "Managing a small business today is already tough.",
-      href: "/features",
+      href: "/resources",
     },
     {
       title: "Pricing",
-      description: "Managing a small business today is already tough.",
-      href: "/features",
+      href: "/pricing",
     },
     {
       title: "About",
-      description: "Managing a small business today is already tough.",
-      href: "/features",
+      href: "/about",
     },
   ];
 

@@ -11,7 +11,7 @@ import { format } from "date-fns";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 
-export default function Contact() {
+export default function Page() {
 
 
   return (
