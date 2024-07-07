@@ -94,7 +94,8 @@ export const TheMenu = () => {
   });
 
   return (
-    <header className="w-full z-40 fixed top-0 left-0 bg-background">
+
+<header className="w-full z-40 fixed top-0 left-0 bg-background">
       <div className="justify-start items-center gap-4 lg:flex hidden flex-row">
         <div className="container relative mx-auto min-h-20 flex gap-4 flex-row lg:grid lg:grid-cols-3 items-center">
           <a href="/">
@@ -452,23 +453,25 @@ export const TheMenu = () => {
                 <NavigationMenu.Viewport className="NavigationMenuViewport" />
               </div>
 
-              <div className="ml-20">
-                <Link href="https://www.github.com/GeneralBots" className="inline-block">
-                  <ImGithub />
-                </Link>
-                {/* <Link href="https://www.instagram.com/pragmatismo.cloud" className="inline-block">
+              <div className="ml-20" >
+          <Link href="https://www.github.com/GeneralBots" className="inline-block">
+            <ImGithub />
+          </Link>
+          {/* <Link href="https://www.instagram.com/pragmatismo.cloud" className="inline-block">
             <TiSocialInstagram />
           </Link> */}
-                <Link href="https://www.youtube.com/@pragmatismocloud" className="inline-block">
-                  <IoLogoYoutube />
-                </Link>
-                {/* <TbBrandTiktokFilled /> */}
-              </div>
+          <Link href="https://www.youtube.com/@pragmatismocloud"  className="inline-block">
+            <IoLogoYoutube />
+          </Link>
+          {/* <TbBrandTiktokFilled /> */}
+        </div>
+
+
             </NavigationMenu.Root>
           </div>
         </div>
       </div>
-      <div className="flex w-720 shrink lg:hidden ">
+      <div className="flex w-7  20 shrink lg:hidden ">
         <a href="/" className="flex lg:justify-center">
           <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
         </a>
@@ -478,6 +481,7 @@ export const TheMenu = () => {
           </Button>
           {isOpen && (
             <div className="absolute top-20 border-t flex flex-col flex-row w-full right-0 bg-background shadow-lg py-4 container gap-1">
+
               {navigationItems.map((item) => (
                 <div key={item.title}>
                   <div className="flex flex-col gap-1 mt-0">
@@ -489,8 +493,8 @@ export const TheMenu = () => {
                     ) : (
                       <p className="text-lg">{item.title}</p>
                     )}
-                    {item.items &&
-                      item.items.map((subItem) => (
+                    {item['items'] &&
+                      item['items'].map((subItem) => (
                         <Link key={subItem.title} href={subItem.href} className="flex justify-between items-center">
                           <span className="text-muted-foreground">{subItem.title}</span>
                           <MoveRight className="w-4 h-4 stroke-1" />
@@ -503,7 +507,7 @@ export const TheMenu = () => {
           )}
         </div>
       </div>
-    </header>
+  </header>
   );
 };
 
