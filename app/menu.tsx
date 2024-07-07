@@ -471,7 +471,7 @@ export const TheMenu = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-7  20 shrink lg:hidden ">
+      <div className="flex w-720 shrink lg:hidden ">
         <a href="/" className="flex lg:justify-center">
           <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
         </a>

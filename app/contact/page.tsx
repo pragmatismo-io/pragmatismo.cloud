@@ -12,8 +12,6 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 
 export default function Page() {
-
-
   return (
     <div className="w-full py-20 lg:py-40">
       <div className="container max-w-6xl mx-auto">
@@ -21,57 +19,49 @@ export default function Page() {
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-4">
               <div>
-                <Badge>Contact</Badge>
+                <Badge>Contact us today!</Badge>
               </div>
               <div className="flex flex-col gap-2">
-                <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-left font-regular">Something new</h4>
-                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-sm text-left">Managing a small business today is already tough. Avoid further complications by ditching outdated, tedious trade methods.</p>
+                <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-left font-regular">Proof-of-concepts</h4>
+                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-sm text-left">Unlock seamless automation and enhanced customer engagement with Pragmatismo's expert integration of General Bots. Discover how our tailored solutions can transform your business operations today, contact-us!</p>
               </div>
             </div>
             <div className="flex flex-row gap-6 items-start text-left">
               <Check className="w-4 h-4 mt-2 text-primary" />
               <div className="flex flex-col gap-1">
-                <p>Schdule a Demo</p>
-                <p className="text-muted-foreground text-sm">A Pragmatismo é especializada em automação, chatbot e integração de sistemas por meio de General Bots, agende uma demonstração ao lado.</p>
+                <p>Schedule a demonstration meeting</p>
+                <p className="text-muted-foreground text-sm">
+                  Pragmatismo specializes in automation, chatbot development, and system integration through General Bots. <a href="https://outlook.office365.com/book/Pragmatismo1@pragmatismo.cloud/">Schedule a demonstration today</a> to see our solutions in action!
+                </p>
+              </div>
+            </div>
+              <div className="flex flex-row gap-6 items-start text-left">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Send us a message</p>
+                <p className="text-muted-foreground text-sm">
+                <p className="text-muted-foreground text-sm">Or send us a message about your software consulting needs via email at <a href="mailto:info@pragmatismo.cloud">info@pragmatismo.cloud</a>. Our team will be glad to assist you with any inquiries you may have.</p>
+
+                </p>
               </div>
             </div>
             <div className="flex flex-row gap-6 items-start text-left">
               <Check className="w-4 h-4 mt-2 text-primary" />
               <div className="flex flex-col gap-1">
-                <p>Fast and reliable</p>
-                <p className="text-muted-foreground text-sm"></p>
-              </div>
-            </div>
-            <div className="flex flex-row gap-6 items-start text-left">
-              <Check className="w-4 h-4 mt-2 text-primary" />
-              <div className="flex flex-col gap-1">
-                <p>Beautiful and modern</p>
-                <p className="text-muted-foreground text-sm">Ou envie-nos uma mensagem sobre a sua necessidade
-          | de consultoria em software pelo e-mail
-          | <a href="mailto:info@pragmatismo.cloud">info@pragmatismo.cloud</a>.</p>
+                <p>Call now!</p>
+                <p className="text-muted-foreground text-sm">Pragmatismo specializes in automation, chatbot development, and system integration leveraging General Bots. Contact us at <a href="tel:+5521972102162">+55 21 97210-2162</a> to see our solutions in action!</p>
               </div>
             </div>
           </div>
 
           <div className="justify-center flex items-center">
-            <div className="rounded-md max-w-sm flex flex-col border p-8 gap-4">
-              <p>Book a meeting</p>
-              <div className="grid w-full max-w-sm items-center gap-1">
-                <Label htmlFor="firstname">First name</Label>
-                <Input id="firstname" type="text" />
-              </div>
-              <div className="grid w-full max-w-sm items-center gap-1">
-                <Label htmlFor="lastname">Last name</Label>
-                <Input id="lastname" type="text" />
-              </div>
-              <div className="grid w-full max-w-sm items-center gap-1">
-                <Label htmlFor="picture">Upload resume</Label>
-                <Input id="picture" type="file" />
-              </div>
-
-              <Button className="gap-4 w-full">
-                Book the meeting <MoveRight className="w-4 h-4" />
-              </Button>
+            <div className="rounded-md max-w flex flex-col border p-8 gap-11">
+              <p>Schedule here:</p>
+              <a href="https://outlook.office365.com/book/Pragmatismo1@pragmatismo.cloud/">
+                <Button className="gap-4 w-full p-2">
+                  Book the meeting <MoveRight className="w-4 h-4 mr-10" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -80,9 +70,7 @@ export default function Page() {
   );
 }
 
-
 // Speak with an expert.
 // US toll-free number: 1-844-365-9460
 // Email
 // Chat
-

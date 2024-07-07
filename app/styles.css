@@ -9,7 +9,9 @@ button,
 p {
   all: unset;
 }
-
+a{
+  font-weight: bolder;
+}
 .NavigationMenuRoot {
   margin-top: 15px;
   position: relative;
