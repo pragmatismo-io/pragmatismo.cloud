@@ -73,6 +73,7 @@ a{
   left: 0;
   width: 80%;
   animation-duration: 250ms;
+  background-color: white;
   animation-timing-function: ease;
 }
 .NavigationMenuContent[data-motion='from-start'] {
@@ -111,10 +112,11 @@ a{
 }
 
 .NavigationMenuViewport {
-  position: relative;
+  position: absolute;
   transform-origin: top center;
   margin-top: 1px;
-  width: 80%;
+  left:55px;
+  width: 100%;
   background-color: hsl(var(--background) /   93);
   border-radius: 6px;
   overflow: hidden;
