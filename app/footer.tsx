@@ -1,5 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import { TiSocialInstagram } from "react-icons/ti";
+import { ImGithub } from "react-icons/im";
+import { IoLogoYoutube } from "react-icons/io";
+import { TbBrandTiktokFilled } from "react-icons/tb";
 
 export const TheFooter = () => {
   const navigationItems = [
@@ -41,7 +45,6 @@ export const TheFooter = () => {
           title: "Pricing",
           href: "/pricing",
         },
-
       ],
     },
     {
@@ -83,13 +86,11 @@ export const TheFooter = () => {
           <div className="flex gap-8 flex-col items-start">
             <div className="flex gap-2 flex-col">
               <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
-              <Link href="/">
-              <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
-              </Link>
+                <Link href="/">
+                  <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
+                </Link>
               </h2>
-              <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-                General Bots® and custom AI models.
-              </p>
+              <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">General Bots® and custom AI models.</p>
             </div>
             <div className="flex gap-20 flex-row">
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
@@ -105,16 +106,10 @@ export const TheFooter = () => {
           </div>
           <div className="grid lg:grid-cols-3 gap-10 items-start">
             {navigationItems.map((item) => (
-              <div
-                key={item.title}
-                className="flex text-base gap-1 flex-col items-start"
-              >
+              <div key={item.title} className="flex text-base gap-1 flex-col items-start">
                 <div className="flex flex-col gap-2">
                   {item.href ? (
-                    <Link
-                      href={item.href}
-                      className="flex justify-between items-center"
-                    >
+                    <Link href={item.href} className="flex justify-between items-center">
                       <span className="text-xl">{item.title}</span>
                     </Link>
                   ) : (
@@ -122,20 +117,26 @@ export const TheFooter = () => {
                   )}
                   {item.items &&
                     item.items.map((subItem) => (
-                      <Link
-                        key={subItem.title}
-                        href={subItem.href}
-                        className="flex justify-between items-center"
-                      >
-                        <span className="text-background/75">
-                          {subItem.title}
-                        </span>
+                      <Link key={subItem.title} href={subItem.href} className="flex justify-between items-center">
+                        <span className="text-background/75">{subItem.title}</span>
                       </Link>
                     ))}
                 </div>
               </div>
             ))}
           </div>
+        </div>
+        <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
+          <Link href="https://www.github.com/GeneralBots" className="inline-block">
+            <ImGithub />
+          </Link>
+          {/* <Link href="https://www.instagram.com/pragmatismo.cloud" className="inline-block">
+            <TiSocialInstagram />
+          </Link> */}
+          <Link href="https://www.youtube.com/@pragmatismocloud"  className="inline-block">
+            <IoLogoYoutube />
+          </Link>
+          {/* <TbBrandTiktokFilled /> */}
         </div>
       </div>
     </div>

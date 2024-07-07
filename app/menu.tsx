@@ -16,6 +16,11 @@ import { MdFacebook, MdOutlineDocumentScanner, MdOutlineEmail } from "react-icon
 import { PiMicrosoftTeamsLogo, PiMicrosoftTeamsLogoFill, PiWhatsappLogoLight } from "react-icons/pi";
 import { SiGooglechat } from "react-icons/si";
 import { TbWorldCheck } from "react-icons/tb";
+import { TiSocialInstagram } from "react-icons/ti";
+import { ImGithub } from "react-icons/im";
+import { IoLogoYoutube } from "react-icons/io";
+import { TbBrandTiktokFilled } from "react-icons/tb";
+
 import "./styles.css";
 
 export const TheMenu = () => {
@@ -25,22 +30,12 @@ export const TheMenu = () => {
       href: "/",
     },
     {
+      title: "About Us",
+      href: "/about",
+    },
+    {
       title: "General Bots",
-      href: '/general-bots',
-      items: [
-        {
-          title: "LLM",
-          href: "/general-bots/llm",
-        },
-        {
-          title: "Vector Retrieval",
-          href: "/general-bots/vector-retrieval",
-        },
-        {
-          title: "Open source",
-          href: "/general-bots/open-source",
-        },
-      ],
+      href: "/general-bots",
     },
     {
       title: "Features",
@@ -57,6 +52,10 @@ export const TheMenu = () => {
     {
       title: "Resources",
       href: "/resources",
+    },
+    {
+      title: "ESG",
+      href: "/esg",
     },
     {
       title: "Pricing",
@@ -105,10 +104,18 @@ export const TheMenu = () => {
             <NavigationMenu.Root className="NavigationMenuRoot">
               <NavigationMenu.List className="NavigationMenuList">
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="NavigationMenuTrigger">
-                    General Bots®
-                    <CaretDownIcon className="CaretDown" aria-hidden />
-                  </NavigationMenu.Trigger>
+                  <NavigationMenu.Link className="NavigationMenuLink text-nowrap" href="/about">
+                    About Us
+                  </NavigationMenu.Link>
+                </NavigationMenu.Item>
+
+                <NavigationMenu.Item>
+                  <a href="/general-bots">
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger text-nowrap">
+                      General Bots®
+                      <CaretDownIcon className="CaretDown" aria-hidden />
+                    </NavigationMenu.Trigger>
+                  </a>
                   <NavigationMenu.Content className="NavigationMenuContent">
                     <ul className="List one">
                       <li style={{ gridRow: "span 4" }}>
@@ -185,9 +192,11 @@ export const TheMenu = () => {
                   </NavigationMenu.Content>
                 </NavigationMenu.Item>
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="NavigationMenuTrigger">
-                    Integrations <CaretDownIcon className="CaretDown" aria-hidden />
-                  </NavigationMenu.Trigger>
+                  <a href="/integrations">
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger">
+                      Integrations <CaretDownIcon className="CaretDown" aria-hidden />
+                    </NavigationMenu.Trigger>
+                  </a>
                   <NavigationMenu.Content className="NavigationMenuContent">
                     <ul className="List one">
                       <li>
@@ -208,11 +217,11 @@ export const TheMenu = () => {
                           <CgWebsite className="ml-2 mr-1 h-6 w-8  inline-block" />
                           <p className="ListItemText">Web Chat in your site</p>
                         </a>
-                        <a className="ListItemLink" href="/integrations/channels/instagram-direct-messages">
+                        <a className="ListItemLink inline-block" href="/integrations/channels/instagram-direct-messages">
                           <FaInstagram className="ml-2 mr-1 h-6 w-8  inline-block" />
-                          <p className="ListItemText">Instagram DM</p>
+                          <p className="ListItemText">Instagram DM&nbsp;&nbsp;&nbsp;&nbsp;</p>
                         </a>
-                        <a className="ListItemLink" href="/integrations/channels/email">
+                        <a className="ListItemLink inline-block" href="/integrations/channels/email">
                           <MdOutlineEmail className="ml-2 mr-1 h-6 w-8  inline-block" />
                           <p className="ListItemText">E-mail</p>
                         </a>
@@ -297,9 +306,11 @@ export const TheMenu = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="NavigationMenuTrigger">
-                    Templates <CaretDownIcon className="CaretDown" aria-hidden />
-                  </NavigationMenu.Trigger>
+                  <a href="/templates">
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger">
+                      Templates <CaretDownIcon className="CaretDown" aria-hidden />
+                    </NavigationMenu.Trigger>
+                  </a>
                   <NavigationMenu.Content className="NavigationMenuContent">
                     <ul className="List one">
                       <li>
@@ -335,9 +346,11 @@ export const TheMenu = () => {
                 </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="NavigationMenuTrigger">
-                    Resources <CaretDownIcon className="CaretDown" aria-hidden />
-                  </NavigationMenu.Trigger>
+                  <a href="/resources">
+                    <NavigationMenu.Trigger className="NavigationMenuTrigger">
+                      Resources <CaretDownIcon className="CaretDown" aria-hidden />
+                    </NavigationMenu.Trigger>
+                  </a>
                   <NavigationMenu.Content className="NavigationMenuContent">
                     <ul className="List one">
                       <li>
@@ -417,41 +430,45 @@ export const TheMenu = () => {
                     </ul>
                   </NavigationMenu.Content>
                 </NavigationMenu.Item>
+                <NavigationMenu.Item>
+                  <NavigationMenu.Link className="NavigationMenuLink" href="/esg">
+                    ESG
+                  </NavigationMenu.Link>
+                </NavigationMenu.Item>
 
                 <NavigationMenu.Item>
                   <NavigationMenu.Link className="NavigationMenuLink" href="/pricing">
                     Pricing
                   </NavigationMenu.Link>
                 </NavigationMenu.Item>
-                <NavigationMenu.Indicator className="NavigationMenuIndicator">
-                  <div className="Arrow" />
-                </NavigationMenu.Indicator>
-
                 <NavigationMenu.Item>
-                  <NavigationMenu.Trigger className="NavigationMenuTrigger">
-                    About <CaretDownIcon className="CaretDown" aria-hidden />
-                  </NavigationMenu.Trigger>
-                  <NavigationMenu.Content className="NavigationMenuContent">
-                    <ul className="List one">
-                      <li>
-                        <a className="ListItemLink" href="/resources/considering/ai-powered-org">
-                          <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
-                          <p className="ListItemText">Investors</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </NavigationMenu.Content>
+                  <NavigationMenu.Link className="NavigationMenuLink" href="/contact">
+                    Contact
+                  </NavigationMenu.Link>
                 </NavigationMenu.Item>
               </NavigationMenu.List>
 
               <div className="ViewportPosition">
                 <NavigationMenu.Viewport className="NavigationMenuViewport" />
               </div>
+
+              <div className="ml-20">
+                <Link href="https://www.github.com/GeneralBots" className="inline-block">
+                  <ImGithub />
+                </Link>
+                {/* <Link href="https://www.instagram.com/pragmatismo.cloud" className="inline-block">
+            <TiSocialInstagram />
+          </Link> */}
+                <Link href="https://www.youtube.com/@pragmatismocloud" className="inline-block">
+                  <IoLogoYoutube />
+                </Link>
+                {/* <TbBrandTiktokFilled /> */}
+              </div>
             </NavigationMenu.Root>
           </div>
         </div>
       </div>
-      <div className="flex w-420 shrink lg:hidden ">
+      <div className="flex w-720 shrink lg:hidden ">
         <a href="/" className="flex lg:justify-center">
           <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
         </a>

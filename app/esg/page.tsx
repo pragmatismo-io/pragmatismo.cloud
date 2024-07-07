@@ -31,24 +31,22 @@ export default function Page() {
             <div className="flex flex-row gap-6 items-start text-left">
               <Check className="w-4 h-4 mt-2 text-primary" />
               <div className="flex flex-col gap-1">
-                <p>Schdule a Demo</p>
-                <p className="text-muted-foreground text-sm">A Pragmatismo é especializada em automação, chatbot e integração de sistemas por meio de General Bots, agende uma demonstração ao lado.</p>
+                <p>Easy to use</p>
+                <p className="text-muted-foreground text-sm">We&apos;ve made it easy to use and understand.</p>
               </div>
             </div>
             <div className="flex flex-row gap-6 items-start text-left">
               <Check className="w-4 h-4 mt-2 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Fast and reliable</p>
-                <p className="text-muted-foreground text-sm"></p>
+                <p className="text-muted-foreground text-sm">We&apos;ve made it easy to use and understand.</p>
               </div>
             </div>
             <div className="flex flex-row gap-6 items-start text-left">
               <Check className="w-4 h-4 mt-2 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Beautiful and modern</p>
-                <p className="text-muted-foreground text-sm">Ou envie-nos uma mensagem sobre a sua necessidade
-          | de consultoria em software pelo e-mail
-          | <a href="mailto:info@pragmatismo.cloud">info@pragmatismo.cloud</a>.</p>
+                <p className="text-muted-foreground text-sm">We&apos;ve made it easy to use and understand.</p>
               </div>
             </div>
           </div>
@@ -79,10 +77,3 @@ export default function Page() {
     </div>
   );
 }
-
-
-// Speak with an expert.
-// US toll-free number: 1-844-365-9460
-// Email
-// Chat
-
