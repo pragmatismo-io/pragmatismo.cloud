@@ -482,7 +482,7 @@ export const TheMenu = () => {
                 <div key={item.title}>
                   <div className="flex flex-col gap-1 mt-0">
                     {item.href ? (
-                      <Link href={item.href} className="flex justify-between items-center">
+                      <Link href={item.href}  onClick={() => setOpen(!isOpen)} className="flex justify-between items-center">
                         <span className="text-lg">{item.title}</span>
                         <MoveRight className="w-4 h-4 stroke-1 text-muted-foreground" />
                       </Link>
@@ -491,7 +491,7 @@ export const TheMenu = () => {
                     )}
                     {item["items"] &&
                       item["items"].map((subItem) => (
-                        <Link key={subItem.title} href={subItem.href} className="flex justify-between items-center">
+                        <Link key={subItem.title}  onClick={() => setOpen(!isOpen)} href={subItem.href} className="flex justify-between items-center">
                           <span className="text-muted-foreground">{subItem.title}</span>
                           <MoveRight className="w-4 h-4 stroke-1" />
                         </Link>
