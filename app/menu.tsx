@@ -217,7 +217,7 @@ export const TheMenu = () => {
                           <CgWebsite className="ml-2 mr-1 h-6 w-8  inline-block" />
                           <p className="ListItemText">Web Chat in your site</p>
                         </a>
-                        <a className="ListItemLink inline-block" href="/integrations/channels/instagram-direct-messages">
+                        <a className="ListItemLink inline-block" href="/integrations/channels/instagram">
                           <FaInstagram className="ml-2 mr-1 h-6 w-8  inline-block" />
                           <p className="ListItemText">Instagram DM&nbsp;&nbsp;&nbsp;&nbsp;</p>
                         </a>
@@ -245,21 +245,13 @@ export const TheMenu = () => {
 
                       <li>
                         <div className="ListItemHeading">Team Work & Customer</div>
-                        <a className="ListItemLink" href="/integrations/team-work/whatsapp-powerplatform">
-                          <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block " style={{ color: "gray" }} />
-                          <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
-
-                          <Image src="/icons/power-platform.svg" alt="Logo" width={15} height={15} className="ml-2 mr-1 h-6 w-8  inline-block" loading="lazy" />
-
-                          <p className="ListItemText">WhatsApp and PowerPlatform</p>
-                        </a>
                         <a className="ListItemLink" href="/integrations/team-work/whatsapp-microsoft-teams">
                           <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
                           <PiMicrosoftTeamsLogoFill className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">WhatsApp and Teams</p>
                         </a>
-                        <a className="ListItemLink" href="/integrations/team-work/google-workspace-whatsapp">
+                        <a className="ListItemLink" href="/integrations/team-work/whatsapp-google-workspace">
                           <PiWhatsappLogoLight className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <FaArrowRightArrowLeft className="inline-block" style={{ color: "lightgray" }} />
                           <Image src="/google-chat.svg" alt="Logo" width={15} height={15} loading="lazy" className="ml-2 mr-1 h-6 w-8  inline-block" />

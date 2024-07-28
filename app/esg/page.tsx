@@ -14,7 +14,7 @@ export default function Page() {
               </div>
               <div className="flex gap-2 flex-col">
                 <h2 className="text-3xl lg:text-5xl tracking-tighter max-w-xl text-left font-regular">Corporate Responsibility</h2>
-                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">As a software and AI company, Pragmatismo Solutions is committed to sustainability and corporate responsibility, prioritizing ESG practices across our operations.</p>
+                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">As a software and AI company, Pragmatismo is committed to sustainability and corporate responsibility, prioritizing ESG practices across our operations.</p>
               </div>
             </div>
             <div className="grid lg:pl-6 grid-cols-1 sm:grid-cols-3 items-start lg:grid-cols-1 gap-6">

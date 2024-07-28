@@ -380,7 +380,7 @@ export default function Page() {
               </a>
             </div>
             <div className="flex flex-col gap-2">
-              <a href="/integrations/channels/instagram-direct-messages">
+              <a href="/integrations/channels/instagram">
                 <div className="bg-muted rounded-md aspect-video mb-2 containercenter">
                   <FaInstagram className="ml-2 mr-1 w-16 h-16 inline-block" />
                 </div>
