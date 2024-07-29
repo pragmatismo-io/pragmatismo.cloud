@@ -6,7 +6,7 @@ import { PhoneCall, MoveRight } from "lucide-react";
 const GeneralBotsPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -36,9 +36,9 @@ const GeneralBotsPage = () => (
     </div>
 
     {/* Feature Section */}
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Bot Factory</Badge>
           </div>
@@ -113,7 +113,7 @@ const GeneralBotsPage = () => (
     </div>
 
     {/* Contact Section */}
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">

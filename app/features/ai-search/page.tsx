@@ -7,7 +7,7 @@ import { PhoneCall, MoveRight } from "lucide-react";
 const AISearchPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-20 lg:py-40 bg-blue-100">
+    <div className="w-full py-12 lg:py-12 bg-blue-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -37,9 +37,9 @@ const AISearchPage = () => (
     </div>
 
     {/* Vector Databases Section */}
-    <div className="w-full py-20 lg:py-40 bg-gray-50">
+    <div className="w-full py-12 lg:py-12 bg-gray-50">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Vector Databases</Badge>
           </div>
@@ -78,9 +78,9 @@ const AISearchPage = () => (
     </div>
 
     {/* Large Language Models (LLMs) Section */}
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Large Language Models (LLMs)</Badge>
           </div>
@@ -119,9 +119,9 @@ const AISearchPage = () => (
     </div>
 
     {/* Integration Section */}
-    <div className="w-full py-20 lg:py-40 bg-gray-50">
+    <div className="w-full py-12 lg:py-12 bg-gray-50">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Seamless Integration</Badge>
           </div>
@@ -169,9 +169,9 @@ const AISearchPage = () => (
     </div>
 
     {/* Call to Action Section */}
-    <div className="w-full py-20 lg:py-40 bg-blue-100">
+    <div className="w-full py-12 lg:py-12 bg-blue-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <h2 className="text-3xl md:text-5xl font-regular text-left">Transform Your Search Experience with AI</h2>
             <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">

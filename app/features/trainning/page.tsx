@@ -7,7 +7,7 @@ import { PhoneCall, MoveRight } from "lucide-react";
 const GeneralBotsTrainingPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-20 lg:py-40 bg-blue-100">
+    <div className="w-full py-12 lg:py-12 bg-blue-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -37,9 +37,9 @@ const GeneralBotsTrainingPage = () => (
     </div>
 
     {/* Word Documents Training Section */}
-    <div className="w-full py-20 lg:py-40 bg-gray-50">
+    <div className="w-full py-12 lg:py-12 bg-gray-50">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Word Documents Training</Badge>
           </div>
@@ -78,9 +78,9 @@ const GeneralBotsTrainingPage = () => (
     </div>
 
     {/* Excel Sheets Training Section */}
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Excel Sheets Training</Badge>
           </div>
@@ -119,9 +119,9 @@ const GeneralBotsTrainingPage = () => (
     </div>
 
     {/* Benefits Section */}
-    <div className="w-full py-20 lg:py-40 bg-gray-50">
+    <div className="w-full py-12 lg:py-12 bg-gray-50">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-20 lg:py-40 flex-col items-start">
+        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
           <div>
             <Badge>Why Choose Us?</Badge>
           </div>
@@ -160,7 +160,7 @@ const GeneralBotsTrainingPage = () => (
     </div>
 
     {/* Call to Action Section */}
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
         <div className="flex flex-col items-center gap-8">
           <h2 className="text-4xl md:text-6xl tracking-tighter font-regular">

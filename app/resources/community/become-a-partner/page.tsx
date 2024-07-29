@@ -1,120 +1,104 @@
-import { Check, User } from "lucide-react";
+import React from "react";
+import { Check } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
-export default function DataScience () {
-  return (
+const PartnerProgramPage = () => (
   <div className="w-full py-20 lg:py-40">
     <div className="container mx-auto">
-      <div className="flex flex-col gap-10">
-        <div className="flex gap-4 flex-col items-start">
-          <div>
-            <Badge>Platform</Badge>
-          </div>
-          <div className="flex gap-2 flex-col">
-            <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
-              Something new!
-            </h2>
-            <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-left">
-              Managing a small business today is already tough.
-            </p>
+      {/* Hero Section */}
+      <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
+        <div className="flex flex-col gap-4">
+          <Badge variant="outline">Join Our Partner Program</Badge>
+          <h1 className="text-5xl md:text-7xl max-w-lg tracking-tighter font-regular">Partner with General Bots</h1>
+          <p className="text-xl leading-relaxed tracking-tight text-muted-foreground max-w-md">
+            Become a partner with General Bots and unlock a world of opportunities. Our Partner Program is designed to offer valuable benefits to organizations and individuals who are passionate about expanding the reach of our open-source bot platform. Learn how you can leverage our resources, share leads, and collaborate for mutual growth.
+          </p>
+          <div className="flex gap-4">
+            <Button size="lg" className="gap-4" variant="outline">
+              Learn More
+            </Button>
+            <Button size="lg" className="gap-4">
+              Apply Now
+            </Button>
           </div>
         </div>
-        <div className="flex flex-col sm:grid sm:grid-cols-2 lg:grid  lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          <div className="bg-muted h-full w-full rounded-md aspect-square p-6 flex justify-between flex-col lg:col-span-2 lg:row-span-2">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
+        <div className="bg-muted rounded-md aspect-square"></div>
+      </div>
+
+      {/* Partner Program Details Section */}
+      <div className="py-20 lg:py-40">
+        <div className="flex flex-col gap-4 items-start">
+          <Badge>About the Partner Program</Badge>
+          <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">Why Partner with General Bots?</h2>
+          <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">
+            Our Partner Program offers a range of benefits to help you grow your business and expand your influence in the bot development community. By partnering with us, you gain access to exclusive resources, support, and opportunities to collaborate on cutting-edge projects with our open-source platform.
+          </p>
+          <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">Here’s what you can expect from our Partner Program:</p>
+          <div className="flex gap-10 pt-12 flex-col w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-10">
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Access to Exclusive Resources</p>
+                  <p className="text-muted-foreground text-sm">Get access to premium tools, documentation, and support tailored to help you succeed.</p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Collaborative Opportunities</p>
+                  <p className="text-muted-foreground text-sm">Work closely with our team on innovative projects and enhance your offerings with our technology.</p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Lead Sharing</p>
+                  <p className="text-muted-foreground text-sm">Share leads and opportunities to grow together and benefit from mutual referrals.</p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Marketing Support</p>
+                  <p className="text-muted-foreground text-sm">Leverage our marketing tools and support to boost your visibility and reach.</p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Training and Certification</p>
+                  <p className="text-muted-foreground text-sm">Receive comprehensive training and certification to enhance your skills and knowledge.</p>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Finance</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Churn Rate
-                Programas de Fidelidade
-                Venda Incrementada e Venda Casada (Cross-sell & upsell)
-                Aquisição de Clientes
-                Detecção de Fraudes
-                Revenue Assurance
-                Gerenciamento de Risco e Conformidade
-                Otimização de Call Center e Métricas
-              </p>
-            </div>
-          </div>
-
-          <div className="bg-muted h-full rounded-md p-6 flex justify-between flex-col lg:col-span-2">
-            <User className="w-8 h-8 stroke-1" />
-            <div className="flex flex-col">
-              <h3 className="text-xl tracking-tight">Pay supplier invoices</h3>
-              <p className="text-muted-foreground max-w-xs text-base">
-                Our goal is to streamline SMB trade, making it easier and faster
-                than ever.
-              </p>
-            </div>
+      {/* Call to Action Section */}
+      <div className="py-20 lg:py-40 bg-gray-100">
+        <div className="flex flex-col gap-4 items-start">
+          <Badge>Ready to Partner?</Badge>
+          <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">Join Us and Start Growing</h2>
+          <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">Ready to take the next step? Apply to become a partner with General Bots and start leveraging our resources and network to grow your business. We’re excited to collaborate with you and achieve great things together.</p>
+          <div className="flex gap-10 pt-12 flex-col w-full">
+            <a href="https://gb.pragmatismo.cloud/pragmatismopartner">
+              <Button size="lg" className="gap-4">
+                Apply to Become a Partner
+              </Button>
+            </a>
+            <a href="/contact">
+              <Button size="lg" className="gap-4" variant="outline">
+                Contact Us for More Information
+              </Button>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-)}
+);
+
+export default PartnerProgramPage;

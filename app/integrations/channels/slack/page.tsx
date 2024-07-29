@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 export const FeatureIntegration = () => (
-  <div className="w-full py-20 lg:py-40">
+  <div className="w-full py-12 lg:py-12">
     <div className="container mx-auto">
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export const FeatureIntegration = () => (
       </div>
 
       {/* Automation Benefits */}
-      <div className="flex flex-col py-20 lg:py-40">
+      <div className="flex flex-col py-12 lg:py-12">
         <div className="flex gap-4 flex-col">
           <Badge>Automation Benefits</Badge>
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">
@@ -104,7 +104,7 @@ export const FeatureIntegration = () => (
       </div>
 
       {/* Team Collaboration */}
-      <div className="flex flex-col py-20 lg:py-40">
+      <div className="flex flex-col py-12 lg:py-12">
         <div className="flex gap-4 flex-col">
           <Badge>Team Collaboration</Badge>
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">
@@ -175,7 +175,7 @@ export const FeatureIntegration = () => (
       </div>
 
       {/* Summary Section */}
-      <div className="flex flex-col py-20 lg:py-40">
+      <div className="flex flex-col py-12 lg:py-12">
         <div className="flex gap-4 flex-col">
           <Badge variant="outline">Summary</Badge>
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">

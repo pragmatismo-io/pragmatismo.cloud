@@ -18,7 +18,7 @@ import { SiGooglechat } from "react-icons/si";
 import { TbWorldCheck } from "react-icons/tb";
 import { TiSocialInstagram } from "react-icons/ti";
 import { ImGithub } from "react-icons/im";
-import { IoLogoYoutube } from "react-icons/io";
+import { IoLogoYoutube, IoLogoWhatsapp } from "react-icons/io";
 import { TbBrandTiktokFilled } from "react-icons/tb";
 
 import "./styles.css";
@@ -95,6 +95,10 @@ export const TheMenu = () => {
 
   return (
     <header className="w-full z-40 fixed top-0 left-0 bg-background">
+      <div className="w-full m-0 p-0 text-xs text-right">
+         Suporte: <a href="tel:+552140402160">+55 21 4040-2160</a> |
+      <Button size="sm" className="m-2 mr-6 gap-2">Pragmatismo Store </Button>
+      </div>
       <div className="justify-start items-center gap-4 lg:flex hidden flex-row">
         <div className="container relative mx-auto min-h-20 flex gap-4 flex-row lg:grid lg:grid-cols-3 items-center">
           <a href="/">
@@ -307,28 +311,28 @@ export const TheMenu = () => {
                     <ul className="List one">
                       <li>
                         <div className="ListItemHeading">Small Business</div>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=crm.gbai">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=crm.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
 
                           <p className="ListItemText">CRM</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new?template=mycompany.gbai">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new?template=mycompany.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">My Company</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=restaurant.gbai">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=restaurant.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">Restaurant</p>
                         </a>
                       </li>
                       <li>
                         <div className="ListItemHeading">Corporate</div>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=recruitment.gbai">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=recruitment.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">Recruitment</p>
                         </a>
                         <div className="ListItemHeading">Enterprise</div>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/gb?dialog=new&template=ADResetPassword.gbapp">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=ADResetPassword.gbapp">
                           <Image src="/icons/entra.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">ADResetPassword.gbapp</p>
                         </a>
@@ -375,15 +379,15 @@ export const TheMenu = () => {
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Data Science</p>
                         </a>
-                        <a className="ListItemLink" href="https://blog.pragmatismo.cloud">
+                        <a className="ListItemLink" href="/blog">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Blog</p>
                         </a>
-                        <a className="ListItemLink" href="https://support.pragmatismo.cloud">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pragmatismohelpcenter">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Help center</p>
                         </a>
-                        <a className="ListItemLink" href="https://status.pragmatismo.cloud">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pragmatismostatus">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Pragmatismo Cloud Status</p>
                         </a>
@@ -394,13 +398,13 @@ export const TheMenu = () => {
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Become a Partner</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pcbot">
+                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pragmatismopartner">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
-                          <p className="ListItemText ">Partner Center Bot</p>
+                          <p className="ListItemText ">Partner Bot</p>
                         </a>
                         <a className="ListItemLink" href="https://github.com/generalbots">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
-                          <p className="ListItemText">Social</p>
+                          <p className="ListItemText">GitHub</p>
                         </a>
                       </li>
                       <li>
@@ -444,18 +448,6 @@ export const TheMenu = () => {
                 <NavigationMenu.Viewport className="NavigationMenuViewport" />
               </div>
 
-              <div className="ml-20">
-                <Link href="https://www.github.com/GeneralBots" className="inline-block">
-                  <ImGithub />
-                </Link>
-                {/* <Link href="https://www.instagram.com/pragmatismo.cloud" className="inline-block">
-            <TiSocialInstagram />
-          </Link> */}
-                <Link href="https://www.youtube.com/@pragmatismocloud" className="inline-block">
-                  <IoLogoYoutube />
-                </Link>
-                {/* <TbBrandTiktokFilled /> */}
-              </div>
             </NavigationMenu.Root>
           </div>
         </div>
@@ -474,7 +466,7 @@ export const TheMenu = () => {
                 <div key={item.title}>
                   <div className="flex flex-col gap-1 mt-0">
                     {item.href ? (
-                      <Link href={item.href}  onClick={() => setOpen(!isOpen)} className="flex justify-between items-center">
+                      <Link href={item.href} onClick={() => setOpen(!isOpen)} className="flex justify-between items-center">
                         <span className="text-lg">{item.title}</span>
                         <MoveRight className="w-4 h-4 stroke-1 text-muted-foreground" />
                       </Link>
@@ -483,7 +475,7 @@ export const TheMenu = () => {
                     )}
                     {item["items"] &&
                       item["items"].map((subItem) => (
-                        <Link key={subItem.title}  onClick={() => setOpen(!isOpen)} href={subItem.href} className="flex justify-between items-center">
+                        <Link key={subItem.title} onClick={() => setOpen(!isOpen)} href={subItem.href} className="flex justify-between items-center">
                           <span className="text-muted-foreground">{subItem.title}</span>
                           <MoveRight className="w-4 h-4 stroke-1" />
                         </Link>

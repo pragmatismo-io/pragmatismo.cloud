@@ -15,7 +15,7 @@ import { Arrow } from "@radix-ui/react-dropdown-menu";
 
 export default function Page() {
   return (
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container mx-auto">
         <div className="flex text-center justify-center items-center gap-4 flex-col">
           <Badge>Pricing</Badge>

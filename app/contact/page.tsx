@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 
 export default function Page() {
   return (
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10">
           <div className="flex flex-col gap-6">
@@ -49,7 +49,7 @@ export default function Page() {
               <Check className="w-4 h-4 mt-2 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Call now!</p>
-                <p className="text-muted-foreground text-sm">Pragmatismo specializes in automation, chatbot development, and system integration leveraging General Bots. Contact us at <a href="tel:+5521972102162">+55 21 97210-2162</a> to see our solutions in action!</p>
+                <p className="text-muted-foreground text-sm">Pragmatismo specializes in automation, chatbot development, and system integration leveraging General Bots. Contact us at <a href="tel:+552140402160">+55 21 4040-2160</a> to see our solutions in action!</p>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function Page() {
           <div className="justify-center flex items-center">
             <div className="rounded-md max-w flex flex-col border p-8 gap-11">
               <p>Schedule here:</p>
-              <a href="https://outlook.office365.com/book/Pragmatismo1@pragmatismo.cloud/">
+              <a href="mailto:sales@pragmatismo.cloud">
                 <Button className="gap-4 w-full p-2">
                   Book the meeting <MoveRight className="w-4 h-4 mr-10" />
                 </Button>

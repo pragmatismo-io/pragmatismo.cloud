@@ -15,7 +15,7 @@ export default function Page() {
 
 
   return (
-    <div className="w-full py-20 lg:py-40">
+    <div className="w-full py-12 lg:py-12">
       <div className="container max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10">
           <div className="flex flex-col gap-6">

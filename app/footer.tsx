@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { TiSocialInstagram } from "react-icons/ti";
 import { ImGithub } from "react-icons/im";
-import { IoLogoYoutube } from "react-icons/io";
+import { IoLogoWhatsapp, IoLogoYoutube } from "react-icons/io";
 import { TbBrandTiktokFilled } from "react-icons/tb";
 
 export const TheFooter = () => {
@@ -80,7 +80,7 @@ export const TheFooter = () => {
   ];
 
   return (
-    <div className="w-full py-20 lg:py-40 bg-foreground text-background">
+    <div className="w-full py-12 lg:py-12 bg-foreground text-background">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div className="flex gap-8 flex-col items-start">
@@ -96,12 +96,13 @@ export const TheFooter = () => {
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <p>Rio de Janeiro - São Paulo - Paraná</p>
                 <p>Brazil</p>
-                <p></p>
+                <p>+55 21 4040-2160</p>
               </div>
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <Link href="/terms">Terms of service</Link>
                 <Link href="/privacy">Privacy Policy</Link>
               </div>
+              Copyright © 2016-2024 Pragmatismo.
             </div>
           </div>
           <div className="grid lg:grid-cols-3 gap-10 items-start">
@@ -126,18 +127,17 @@ export const TheFooter = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-          <Link href="https://www.github.com/GeneralBots" className="inline-block">
-            <ImGithub />
-          </Link>
-          {/* <Link href="https://www.instagram.com/pragmatismo.cloud" className="inline-block">
-            <TiSocialInstagram />
-          </Link> */}
-          <Link href="https://www.youtube.com/@pragmatismocloud"  className="inline-block">
-            <IoLogoYoutube />
-          </Link>
-          {/* <TbBrandTiktokFilled /> */}
-        </div>
+        <div className="ml-10">
+                <Link href="https://www.github.com/GeneralBots" className="inline-block p-4">
+                  <ImGithub />
+                </Link>
+                <Link href="https://www.youtube.com/@pragmatismocloud" className="inline-block  p-4">
+                  <IoLogoYoutube />
+                </Link>
+                <Link href="https://web.whatsapp.com/send?phone=+552140402160" className="inline-block  p-4">
+                  <IoLogoWhatsapp />
+                </Link>
+              </div>
       </div>
     </div>
   );
