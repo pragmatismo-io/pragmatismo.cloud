@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <meta
           property="og:title"
-          content="Pragamtismo"
+          content="Pragmatismo"
         />
         <meta
           property="og:description"
