@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MoveRight, PhoneCall } from "lucide-react";
 
-export const FeaturePage = () => (
+ const FeaturePage = () => (
   <div className="w-full">
     {/* Section 1: Introduction */}
     <div className="py-12 lg:py-12">
