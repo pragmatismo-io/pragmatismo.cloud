@@ -32,9 +32,9 @@ import { Check } from "lucide-react";
 
 export default function Page() {
   return (
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-8 py-12 lg:py-12 items-center justify-center flex-col">
+        <div className="flex gap-8 py-25 lg:py-25 items-center justify-center flex-col">
           <div>
             <Badge variant="outline">Go General Bots</Badge>
           </div>

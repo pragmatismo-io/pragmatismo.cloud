@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const BotBroadcastPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -35,9 +35,9 @@ const BotBroadcastPage = () => (
     </div>
 
     {/* Feature 1: Effective Marketing Campaigns */}
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Marketing</Badge>
           </div>
@@ -112,9 +112,9 @@ const BotBroadcastPage = () => (
     </div>
 
     {/* Feature 2: Real-Time Notifications */}
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Notifications</Badge>
           </div>
@@ -189,9 +189,9 @@ const BotBroadcastPage = () => (
     </div>
 
     {/* Feature 3: Data-Driven Custom AI Models */}
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Custom AI</Badge>
           </div>

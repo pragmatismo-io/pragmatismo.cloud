@@ -6,7 +6,7 @@ import { MoveRight, PhoneCall } from "lucide-react";
 const FeaturePage = () => (
   <div className="w-full">
     {/* Section 1: Introduction */}
-    <div className="py-12 lg:py-12">
+    <div className="py-25 lg:py-25">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -36,9 +36,9 @@ const FeaturePage = () => (
     </div>
 
     {/* Section 2: Comprehensive Automation Features */}
-    <div className="py-12 lg:py-12 bg-gray-100">
+    <div className="py-25 lg:py-25 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Automation Suite</Badge>
           </div>
@@ -248,9 +248,9 @@ const FeaturePage = () => (
     </div>
 
     {/* Section 3: Benefits of Automation */}
-    <div className="py-12 lg:py-12">
+    <div className="py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Benefits</Badge>
           </div>
@@ -316,9 +316,9 @@ const FeaturePage = () => (
     </div>
 
     {/* Section 4: Easy Integration Process */}
-    <div className="py-12 lg:py-12 bg-gray-100">
+    <div className="py-25 lg:py-25 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Integration</Badge>
           </div>
@@ -384,9 +384,9 @@ const FeaturePage = () => (
     </div>
 
     {/* Section 5: Get Started */}
-    <div className="py-12 lg:py-12">
+    <div className="py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Next Steps</Badge>
           </div>

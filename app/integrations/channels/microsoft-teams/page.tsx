@@ -6,7 +6,7 @@ import { MoveRight, PhoneCall } from "lucide-react";
  const FeaturePage = () => (
   <div className="w-full">
     {/* Section 1: Introduction */}
-    <div className="py-12 lg:py-12">
+    <div className="py-25 lg:py-25">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -36,9 +36,9 @@ import { MoveRight, PhoneCall } from "lucide-react";
     </div>
 
     {/* Section 2: Bots Integration with Microsoft Teams and WhatsApp */}
-    <div className="py-12 lg:py-12 bg-gray-100">
+    <div className="py-25 lg:py-25 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Integration</Badge>
           </div>
@@ -113,9 +113,9 @@ import { MoveRight, PhoneCall } from "lucide-react";
     </div>
 
     {/* Section 3: Governance and Compliance */}
-    <div className="py-12 lg:py-12">
+    <div className="py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Governance</Badge>
           </div>
@@ -190,9 +190,9 @@ import { MoveRight, PhoneCall } from "lucide-react";
     </div>
 
     {/* Section 4: Migration to Copilot Plugins */}
-    <div className="py-12 lg:py-12 bg-gray-100">
+    <div className="py-25 lg:py-25 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Migration</Badge>
           </div>
@@ -267,7 +267,7 @@ import { MoveRight, PhoneCall } from "lucide-react";
     </div>
 
     {/* Section 5: Call to Action */}
-    <div className="py-12 lg:py-12">
+    <div className="py-25 lg:py-25">
       <div className="container mx-auto">
         <div className="flex gap-4 flex-col items-center">
           <div>

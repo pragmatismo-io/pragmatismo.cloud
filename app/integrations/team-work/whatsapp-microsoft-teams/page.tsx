@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { MoveRight, PhoneCall } from "lucide-react";
 
 const IntegrationPage = () => (
-  <div className="w-full py-12 lg:py-12">
+  <div className="w-full py-25 lg:py-25">
     <div className="container mx-auto">
       {/* Section 1: Introduction */}
       <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
@@ -34,7 +34,7 @@ const IntegrationPage = () => (
       </div>
 
       {/* Section 2: Features */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <Badge>Features</Badge>
         <div className="flex gap-2 flex-col">
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">
@@ -182,7 +182,7 @@ const IntegrationPage = () => (
       </div>
 
       {/* Section 4: How It Works */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <Badge>How It Works</Badge>
         <div className="flex gap-2 flex-col">
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">
@@ -236,7 +236,7 @@ const IntegrationPage = () => (
       </div>
 
       {/* Section 5: Call to Action */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <Badge>Get Started</Badge>
         <div className="flex gap-2 flex-col">
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">

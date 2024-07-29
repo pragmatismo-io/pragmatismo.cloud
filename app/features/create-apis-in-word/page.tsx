@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const ApiCreationPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-12 lg:py-12 bg-gray-100">
+    <div className="w-full py-25 lg:py-25 bg-gray-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -35,9 +35,9 @@ const ApiCreationPage = () => (
     </div>
 
     {/* Feature 1: Simplified API Creation */}
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Simplified Creation</Badge>
           </div>
@@ -112,9 +112,9 @@ const ApiCreationPage = () => (
     </div>
 
     {/* Feature 2: LLM Assistance for API Development */}
-    <div className="w-full py-12 lg:py-12 bg-gray-100">
+    <div className="w-full py-25 lg:py-25 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>LLM Assistance</Badge>
           </div>
@@ -189,9 +189,9 @@ const ApiCreationPage = () => (
     </div>
 
     {/* Feature 3: Integration with General Bots */}
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>Seamless Integration</Badge>
           </div>

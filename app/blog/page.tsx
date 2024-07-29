@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 
 export default function Page() {
   return (
-    <div className="w-full py-12 lg:py-12">
+    <div className="w-full py-25 lg:py-25">
       <div className="container mx-auto">
         {/* Block 1 - Our Focus */}
         <div className="grid border rounded-lg container py-8 grid-cols-1 gap-8 items-center lg:grid-cols-2">
@@ -63,7 +63,7 @@ export default function Page() {
         </div>
 
         {/* Block 2 - QSMS */}
-        <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
           <div>
             <Badge>QSMS</Badge>
           </div>

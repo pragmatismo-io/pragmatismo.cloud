@@ -3,10 +3,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 const MicrosoftCopilotPage = () => (
-  <div className="w-full py-12 lg:py-12">
+  <div className="w-full py-25 lg:py-25">
     <div className="container mx-auto">
       {/* Section 1: Microsoft Copilot Plugins and Custom Connectors */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <div>
           <Badge variant="outline">AI Integration</Badge>
         </div>
@@ -94,7 +94,7 @@ const MicrosoftCopilotPage = () => (
       </div>
 
       {/* Section 2: Future of AI Collaboration */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <div>
           <Badge variant="outline">Future Vision</Badge>
         </div>
@@ -181,7 +181,7 @@ const MicrosoftCopilotPage = () => (
       </div>
 
       {/* Section 3: Enhanced User Experience */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <div>
           <Badge variant="outline">User Experience</Badge>
         </div>
@@ -271,7 +271,7 @@ const MicrosoftCopilotPage = () => (
       </div>
 
       {/* Section 4: Implementing AI Solutions */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <div>
           <Badge variant="outline">Implementation</Badge>
         </div>
@@ -362,7 +362,7 @@ const MicrosoftCopilotPage = () => (
       </div>
 
       {/* Section 5: Conclusion and Call to Action */}
-      <div className="flex gap-4 py-12 lg:py-12 flex-col items-start">
+      <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
         <div>
           <Badge variant="outline">Conclusion</Badge>
         </div>
