@@ -2,7 +2,7 @@ import { Check, MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
-export const FeatureIntegration = () => (
+ const FeatureIntegration = () => (
   <div className="w-full py-12 lg:py-12">
     <div className="container mx-auto">
       
