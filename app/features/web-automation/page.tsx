@@ -7,7 +7,7 @@ import { PhoneCall, MoveRight } from "lucide-react";
 const WebAutomationPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-25 lg:py-25 bg-blue-100">
+    <div className="w-full py-40 lg:py-40 bg-blue-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -37,9 +37,9 @@ const WebAutomationPage = () => (
     </div>
 
     {/* OPEN Command Section */}
-    <div className="w-full py-25 lg:py-25 bg-gray-50">
+    <div className="w-full py-40 lg:py-40 bg-gray-50">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>OPEN Command</Badge>
           </div>
@@ -78,9 +78,9 @@ const WebAutomationPage = () => (
     </div>
 
     {/* CLICK Command Section */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>CLICK Command</Badge>
           </div>
@@ -119,9 +119,9 @@ const WebAutomationPage = () => (
     </div>
 
     {/* TYPE Command Section */}
-    <div className="w-full py-25 lg:py-25 bg-gray-50">
+    <div className="w-full py-40 lg:py-40 bg-gray-50">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>TYPE Command</Badge>
           </div>
@@ -160,9 +160,9 @@ const WebAutomationPage = () => (
     </div>
 
     {/* Benefits Section */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Why Choose Us?</Badge>
           </div>
@@ -210,9 +210,9 @@ const WebAutomationPage = () => (
     </div>
 
     {/* Call to Action Section */}
-    <div className="w-full py-25 lg:py-25 bg-blue-100">
+    <div className="w-full py-40 lg:py-40 bg-blue-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <h2 className="text-3xl md:text-5xl font-regular text-left">Ready to Revolutionize Your Web Automation?</h2>
             <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">

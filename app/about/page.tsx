@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const AboutPage = () => (
-  <div className="w-full py-25 lg:py-25">
+  <div className="w-full py-40 lg:py-40">
     <div className="container mx-auto">
 
       {/* Section 1 - AI and Bots */}
@@ -58,7 +58,7 @@ const AboutPage = () => (
       </section>
 
       {/* Section 2 - LLM and Arts */}
-      <section className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+      <section className="flex gap-4 py-40 lg:py-40 flex-col items-start">
         <div>
           <Badge>LLM and Arts Integration</Badge>
         </div>
@@ -107,7 +107,7 @@ const AboutPage = () => (
       </section>
 
       {/* Section 3 - Digital Transformation */}
-      <section className="w-full py-25 lg:py-25">
+      <section className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
           <div className="flex gap-4 flex-col items-start">
             <div>
@@ -230,7 +230,7 @@ const AboutPage = () => (
       </section>
 
       {/* Section 5 - Industry Solutions */}
-      <section className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+      <section className="flex gap-4 py-40 lg:py-40 flex-col items-start">
         <div>
           <Badge>Industry Solutions</Badge>
         </div>
@@ -279,7 +279,7 @@ const AboutPage = () => (
       </section>
 
       {/* Section 6 - Open Source Initiative */}
-      <section className="w-full py-25 lg:py-25">
+      <section className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
           <div className="flex gap-4 flex-col items-start">
             <div>

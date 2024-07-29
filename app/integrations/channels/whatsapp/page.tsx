@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 // Main Page Component
 const GeneralBotsWhatsAppPage = () => (
-  <div className="w-full py-25 lg:py-25">
+  <div className="w-full py-40 lg:py-40">
     <div className="container mx-auto">
 
       {/* Hero Section */}
@@ -34,7 +34,7 @@ const GeneralBotsWhatsAppPage = () => (
       </div>
 
       {/* Feature Section 1 */}
-      <div className="w-full py-25 lg:py-25">
+      <div className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
           <div className="grid border rounded-lg container py-8 grid-cols-1 gap-8 items-center lg:grid-cols-2">
             <div className="flex gap-10 flex-col">
@@ -87,9 +87,9 @@ const GeneralBotsWhatsAppPage = () => (
       </div>
 
       {/* Feature Section 2 */}
-      <div className="w-full py-25 lg:py-25">
+      <div className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
-          <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+          <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
             <div>
               <Badge>Advanced Capabilities</Badge>
             </div>
@@ -137,9 +137,9 @@ const GeneralBotsWhatsAppPage = () => (
       </div>
 
       {/* Use Cases Section */}
-      <div className="w-full py-25 lg:py-25 bg-gray-100">
+      <div className="w-full py-40 lg:py-40 bg-gray-100">
         <div className="container mx-auto">
-          <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+          <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
             <div>
               <Badge>Use Cases</Badge>
             </div>
@@ -185,9 +185,9 @@ const GeneralBotsWhatsAppPage = () => (
       </div>
 
       {/* Benefits Section */}
-      <div className="w-full py-25 lg:py-25 bg-gray-200">
+      <div className="w-full py-40 lg:py-40 bg-gray-200">
         <div className="container mx-auto">
-          <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+          <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
             <div>
               <Badge>Benefits</Badge>
             </div>
@@ -235,7 +235,7 @@ const GeneralBotsWhatsAppPage = () => (
       </div>
 
       {/* Call-to-Action Section */}
-      <div className="w-full py-25 lg:py-25">
+      <div className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
           <div className="flex flex-col items-center">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">

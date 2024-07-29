@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const LLMToolCreationPage = () => (
   <div>
     {/* Hero Section */}
-    <div className="w-full py-25 lg:py-25 bg-gray-100">
+    <div className="w-full py-40 lg:py-40 bg-gray-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -35,9 +35,9 @@ const LLMToolCreationPage = () => (
     </div>
 
     {/* Feature 1: Simplified LLM Tool Creation */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Effortless LLM Tool Development</Badge>
           </div>
@@ -112,9 +112,9 @@ const LLMToolCreationPage = () => (
     </div>
 
     {/* Feature 2: Seamless LLM Integration */}
-    <div className="w-full py-25 lg:py-25 bg-gray-100">
+    <div className="w-full py-40 lg:py-40 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Effortless Integration</Badge>
           </div>

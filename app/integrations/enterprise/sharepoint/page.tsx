@@ -9,9 +9,9 @@ import React from "react";
 const SharePointGeneralBots = () => (
   <div>
     {/* Section 1: Autofill Columns */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Platform</Badge>
           </div>
@@ -86,7 +86,7 @@ const SharePointGeneralBots = () => (
     </div>
 
     {/* Section 2: Content Assembly */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-4 flex-col">
@@ -172,7 +172,7 @@ const SharePointGeneralBots = () => (
     </div>
 
     {/* Section 3: Document Processing */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
         <div className="grid border rounded-lg container py-8 grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-10 flex-col">
@@ -252,9 +252,9 @@ const SharePointGeneralBots = () => (
     </div>
 
     {/* Section 4: Smart Tagging */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Platform</Badge>
           </div>
@@ -329,7 +329,7 @@ const SharePointGeneralBots = () => (
     </div>
 
     {/* Section 5: Data Insights */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
         <div className="grid border rounded-lg container py-8 grid-cols-1 gap-8 items-center lg:grid-cols-2">
           <div className="flex gap-10 flex-col">

@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 
 export default function DataScience () {
   return (
-  <div className="w-full py-25 lg:py-25">
+  <div className="w-full py-40 lg:py-40">
     <div className="container mx-auto">
       <div className="flex flex-col gap-10">
         <div className="flex gap-4 flex-col items-start">

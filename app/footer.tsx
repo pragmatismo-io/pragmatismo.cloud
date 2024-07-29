@@ -80,7 +80,7 @@ export const TheFooter = () => {
   ];
 
   return (
-    <div className="w-full py-25 lg:py-25 bg-foreground text-background">
+    <div className="w-full py-40 lg:py-40 bg-foreground text-background">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div className="flex gap-8 flex-col items-start">

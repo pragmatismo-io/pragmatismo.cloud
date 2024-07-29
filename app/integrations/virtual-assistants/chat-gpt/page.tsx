@@ -5,9 +5,9 @@ import { Badge } from "@/components/ui/badge";
 const FullPageComponent = () => (
   <div className="w-full">
     {/* Section 1 */}
-    <div className="w-full py-25 lg:py-25 bg-white">
+    <div className="w-full py-40 lg:py-40 bg-white">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Integration</Badge>
           </div>
@@ -82,9 +82,9 @@ const FullPageComponent = () => (
     </div>
 
     {/* Section 2 */}
-    <div className="w-full py-25 lg:py-25 bg-gray-100">
+    <div className="w-full py-40 lg:py-40 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Customization</Badge>
           </div>
@@ -159,9 +159,9 @@ const FullPageComponent = () => (
     </div>
 
     {/* Section 3 */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Integration</Badge>
           </div>
@@ -236,9 +236,9 @@ const FullPageComponent = () => (
     </div>
 
     {/* Section 4 */}
-    <div className="w-full py-25 lg:py-25 bg-gray-100">
+    <div className="w-full py-40 lg:py-40 bg-gray-100">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Enhancements</Badge>
           </div>
@@ -313,9 +313,9 @@ const FullPageComponent = () => (
     </div>
 
     {/* Section 5 */}
-    <div className="w-full py-25 lg:py-25">
+    <div className="w-full py-40 lg:py-40">
       <div className="container mx-auto">
-        <div className="flex gap-4 py-25 lg:py-25 flex-col items-start">
+        <div className="flex gap-4 py-40 lg:py-40 flex-col items-start">
           <div>
             <Badge>Conclusion</Badge>
           </div>

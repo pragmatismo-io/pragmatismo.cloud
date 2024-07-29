@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 
 // Main Page Component
 const GeneralBotsWebPage = () => (
-  <div className="w-full py-25 lg:py-25">
+  <div className="w-full py-40 lg:py-40">
     <div className="container mx-auto">
 
       {/* Hero Section */}
@@ -28,7 +28,7 @@ const GeneralBotsWebPage = () => (
       </div>
 
       {/* Feature Section */}
-      <div className="w-full py-25 lg:py-25">
+      <div className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
           <div className="grid border rounded-lg py-8 grid-cols-1 gap-8 lg:grid-cols-2">
             <div className="flex flex-col gap-6">
@@ -86,7 +86,7 @@ const GeneralBotsWebPage = () => (
       </div>
 
       {/* Use Cases Section */}
-      <div className="w-full py-25 lg:py-25 bg-gray-100">
+      <div className="w-full py-40 lg:py-40 bg-gray-100">
         <div className="container mx-auto">
           <div className="flex flex-col items-start">
             <Badge>Use Cases</Badge>
@@ -141,7 +141,7 @@ const GeneralBotsWebPage = () => (
       </div>
 
       {/* Benefits Section */}
-      <div className="w-full py-25 lg:py-25 bg-gray-200">
+      <div className="w-full py-40 lg:py-40 bg-gray-200">
         <div className="container mx-auto">
           <div className="flex flex-col items-start">
             <Badge>Benefits</Badge>
@@ -196,7 +196,7 @@ const GeneralBotsWebPage = () => (
       </div>
 
       {/* Call-to-Action Section */}
-      <div className="w-full py-25 lg:py-25 bg-gray-300">
+      <div className="w-full py-40 lg:py-40 bg-gray-300">
         <div className="container mx-auto">
           <div className="flex flex-col items-center">
             <Badge>Get Started</Badge>
