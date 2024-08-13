@@ -90,7 +90,7 @@ export const TheFooter = () => {
                   <Image src="/logo.png" alt="Pragmatismo Logo" width={302} height={77} className="rounded-md" loading="lazy" />
                 </Link>
               </h2>
-              <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">General Bots® and custom AI models.</p>
+              <p className="text-lg max-w-lg leading-relaxed tracking-tight text-background/75 text-left">General Bots® LLM and custom AI models.</p>
             </div>
             <div className="flex gap-20 flex-row">
               <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
@@ -102,7 +102,9 @@ export const TheFooter = () => {
                 <Link href="/terms">Terms of service</Link>
                 <Link href="/privacy">Privacy Policy</Link>
               </div>
-              Copyright © 2016-2024 Pragmatismo.
+              Copyright © 2016-2024 Pragmatismo. CNPJ 35.973.500/0001-94. <br/>
+              RUA FERNANDO AMARO, 881 - ALTO DA RUA XV - 80045-230<br/>
+              CURITIBA, PR <br/>
             </div>
           </div>
           <div className="grid lg:grid-cols-3 gap-10 items-start">

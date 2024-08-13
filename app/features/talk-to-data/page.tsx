@@ -99,7 +99,16 @@ const DataDialogsPage = () => (
                 <div className="flex flex-col gap-1">
                   <p>Real-Time Data Access</p>
                   <p className="text-muted-foreground text-sm">
-                    Fetch and filter data from your databases instantly.
+                    Just specify connection information in secured "Config.xls".
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>So you have BI on hands</p>
+                  <p className="text-muted-foreground text-sm">
+                    Start talking to the bot about your data.
                   </p>
                 </div>
               </div>
