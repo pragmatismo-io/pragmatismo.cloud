@@ -102,7 +102,7 @@ export const TheFooter = () => {
                 <Link href="/terms">Terms of service</Link>
                 <Link href="/privacy">Privacy Policy</Link>
               </div>
-              Copyright © 2016-2024 Pragmatismo. CNPJ 35.973.500/0001-94. <br/>
+              Copyright © 2016-2024 Pragmatismo. CNPJ 35.973.500/0001-94. DUNS Number: 926754884<br/>
               RUA FERNANDO AMARO, 881 - ALTO DA RUA XV - 80045-230<br/>
               CURITIBA, PR <br/>
             </div>
