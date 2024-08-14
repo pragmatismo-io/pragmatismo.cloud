@@ -115,17 +115,22 @@ export default function Page() {
             <div className="grid text-left grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 w-full gap-2">
               <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
                 <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                  <Image src="/gpt4all.svg" alt="Word Robot" className="rounded-md" width={200} height={200} loading="lazy" />
+                  <Image src="/gpt4all.svg" alt="GPT4All LLM" className="rounded-md" width={200} height={200} loading="lazy" />
                 </p>
               </div>
               <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
                 <p className="text-base leading-relaxed tracking-tight align-middle text-muted-foreground max-w-xl text-left">
-                  <Image src="/open-ai.svg" alt="Word Robot" className="rounded-md " width={400} height={400} loading="lazy" />
+                  <Image src="/open-ai.svg" alt="Open AI LLM" className="rounded-md " width={400} height={400} loading="lazy" />
                 </p>
               </div>
               <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
                 <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                  <Image src="/claude.svg" alt="Word Robot" className="rounded-md" width={200} height={200} loading="lazy" />
+                  <Image src="/claude.svg" alt="Claude LLM" className="rounded-md" width={200} height={200} loading="lazy" />
+                </p>
+              </div>
+              <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
+                <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                  <Image src="/llama-cpp.png" alt="Lama CPP" className="rounded-md" width={200} height={200} loading="lazy" />
                 </p>
               </div>
             </div>

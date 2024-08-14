@@ -98,14 +98,17 @@ export const TheFooter = () => {
                 <p>Brazil</p>
                 <p>+55 21 4040-2160</p>
               </div>
-              <div className="flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
+              <div className="text-xs flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
+              Copyright © 2016-2024 Pragmatismo. <br/>
+              CNPJ 35.973.500/0001-94. <br/>
+              DUNS Number: 926754884<br/>
+              RUA FERNANDO AMARO, 881 | ALTO DA RUA XV 80045-230 CURITIBA, PR <br/>
+              </div>
+            </div>
+            <div className="flex flex-col text-sx max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
                 <Link href="/terms">Terms of service</Link>
                 <Link href="/privacy">Privacy Policy</Link>
               </div>
-              Copyright © 2016-2024 Pragmatismo. CNPJ 35.973.500/0001-94. DUNS Number: 926754884<br/>
-              RUA FERNANDO AMARO, 881 - ALTO DA RUA XV - 80045-230<br/>
-              CURITIBA, PR <br/>
-            </div>
           </div>
           <div className="grid lg:grid-cols-3 gap-10 items-start">
             {navigationItems.map((item) => (
@@ -128,7 +131,6 @@ export const TheFooter = () => {
               </div>
             ))}
           </div>
-        </div>
         <div className="ml-10">
                 <Link href="https://www.github.com/GeneralBots" className="inline-block p-4">
                   <ImGithub />
@@ -140,7 +142,8 @@ export const TheFooter = () => {
                   <IoLogoWhatsapp />
                 </Link>
               </div>
-      </div>
+              </div>
+              </div>
     </div>
   );
 };

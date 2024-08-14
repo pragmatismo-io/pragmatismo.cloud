@@ -56,6 +56,89 @@ export default function Page() {
           </div>
         </div>
       </div>
+
+      <section className="grid border rounded-lg container py-8 grid-cols-1 gap-8 items-center lg:grid-cols-2">
+        <div className="flex gap-10 flex-col">
+          <div className="flex gap-4 flex-col">
+            <div>
+              <Badge variant="outline">AI and Bots</Badge>
+            </div>
+            <div className="flex gap-2 flex-col">
+              <h2 className="text-3xl lg:text-5xl tracking-tighter max-w-xl text-left font-regular">Pragmatismo: Custom AI Assistants and Software Integration</h2>
+              <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">With 8 years of expertise in software integration, Pragmatismo specializes in creating bespoke AI assistants and advanced LLM algorithms tailored to your needs.</p>
+            </div>
+          </div>
+          <div className="grid lg:pl-6 grid-cols-1 sm:grid-cols-3 items-start lg:grid-cols-1 gap-6">
+            {/* Custom Virtual Assistants */}
+            <div className="flex flex-row gap-6 items-start">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Custom Virtual Assistants</p>
+                <p className="text-muted-foreground text-sm">Tailored development of virtual assistants to streamline internal processes, replacing screens and forms.</p>
+              </div>
+            </div>
+            {/* Engagement Generators */}
+            <div className="flex flex-row gap-6 items-start">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Engagement Generators</p>
+                <p className="text-muted-foreground text-sm">Orchestrating corporate-wide engagement in conversational environments, fostering the modern workplace with virtual assistants.</p>
+              </div>
+            </div>
+            {/* Custom AI Algorithms */}
+            <div className="flex flex-row gap-6 items-start">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Custom AI Algorithms</p>
+                <p className="text-muted-foreground text-sm">Development of tailored AI algorithms to enhance operational efficiency and user interaction.</p>
+              </div>
+            </div>
+            {/* Integration Solutions */}
+            <div className="flex flex-row gap-6 items-start">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Integration Solutions</p>
+                <p className="text-muted-foreground text-sm">Seamless integration of AI services into your existing software landscape, ensuring smooth operation and minimal disruption.</p>
+              </div>
+            </div>
+            {/* Data-Driven Decisions */}
+            <div className="flex flex-row gap-6 items-start">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Data-Driven Decisions</p>
+                <p className="text-muted-foreground text-sm">Leveraging AI to analyze and interpret data, providing actionable insights that drive smarter business decisions.</p>
+              </div>
+            </div>
+            {/* Continuous Improvement */}
+            <div className="flex flex-row gap-6 items-start">
+              <Check className="w-4 h-4 mt-2 text-primary" />
+              <div className="flex flex-col gap-1">
+                <p>Continuous Improvement</p>
+                <p className="text-muted-foreground text-sm">Ongoing optimization and support to keep your AI systems up-to-date with the latest advancements and best practices.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-muted rounded-md aspect-square"></div>
+      </section>
+
+      {/* Call-to-Action Section */}
+      <div className="w-full py-40 lg:py-40">
+        <div className="container mx-auto">
+          <div className="flex flex-col items-center">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">Ready to Transform Your Conversations?</h2>
+            <p className="text-lg max-w-xl leading-relaxed tracking-tight text-muted-foreground mt-4">Experience the future of customer communication with our WhatsApp integration. Contact us today to learn more or request a personalized demo.</p>
+            <div className="flex flex-row gap-4 mt-6">
+              <Button size="lg" className="gap-4" variant="outline">
+                Contact Us <PhoneCall className="w-4 h-4" />
+              </Button>
+              <Button size="lg" className="gap-4">
+                Request a Demo <MoveRight className="w-4 h-4" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
