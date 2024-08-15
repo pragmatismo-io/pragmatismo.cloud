@@ -91,7 +91,7 @@ export default function Page() {
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>WhatsApp</p>
-                        <p className="text-muted-foreground text-sm">FREE 30 WhatsApp Notifications.</p>
+                        <p className="text-muted-foreground text-sm">FREE One daily WPP Notification to one number.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
@@ -121,7 +121,7 @@ export default function Page() {
               <CardContent>
                 <div className="flex flex-col gap-8 justify-start">
                   <p className="flex flex-row items-center gap-2 text-xl">
-                    <span className="text-4xl">$19</span>
+                    <span className="text-4xl">$10</span>
                     <span className="text-sm text-muted-foreground"> / month</span>
                   </p>
                   <div className="flex flex-col gap-4 justify-start">
@@ -135,15 +135,22 @@ export default function Page() {
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
-                        <p>WhatsApp Messages</p>
-                        <p className="text-muted-foreground text-sm">Share up to 1000 conversations via WhatsApp.</p>
+                        <p>LLM Enabled</p>
+                        <p className="text-muted-foreground text-sm">Chat to documents and data in ChatGPT style.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>100 MB of Bot Storage</p>
-                        <p className="text-muted-foreground text-sm">Store data with 100 MB of bot storage.</p>
+                        <p className="text-muted-foreground text-sm">Store data with 10 MB of bot storage (it can access your cloud drive).</p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row gap-4">
+                      <Check className="w-4 h-4 mt-2 text-primary" />
+                      <div className="flex flex-col">
+                        <p>Train LLM bot with Dialogs, Docs, Sheets and more</p>
+                        <p className="text-muted-foreground text-sm">Train the using all General Bots BASIC keywords and features.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
@@ -156,8 +163,8 @@ export default function Page() {
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
-                        <p>Custom WhatsApp Number (optional)</p>
-                        <p className="text-muted-foreground text-sm">Option to use a custom WhatsApp number.</p>
+                        <p>(Optional) WhatsApp Offical</p>
+                        <p className="text-muted-foreground text-sm">Custom Number and FREE up to 1000 conversations.</p>
                       </div>
                     </div>
                   </div>
@@ -172,15 +179,15 @@ export default function Page() {
             <Card className="w-full rounded-md">
               <CardHeader>
                 <CardTitle>
-                  <span className="flex flex-row gap-4 items-center font-normal">SMB Plan</span>
+                  <span className="flex flex-row gap-4 items-center font-normal">Professional</span>
                 </CardTitle>
                 <CardDescription>Streamlined for small and medium businesses, making trade easier and faster.</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-col gap-8 justify-start">
                   <p className="flex flex-row items-center gap-2 text-xl">
-                    <span className="text-4xl">$200.00</span>
-                    <span className="text-sm text-muted-foreground"> (once) + $99.90 / month (Seats &lt; 120)</span>
+                    <span className="text-4xl">USD $30.00</span>
+                    <span className="text-sm text-muted-foreground"> Up to 50 seats</span>
                   </p>
                   <div className="flex flex-col gap-4 justify-start">
                     <div className="flex flex-row gap-4">
@@ -193,22 +200,22 @@ export default function Page() {
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
-                        <p>5000 Shared WhatsApp</p>
-                        <p className="text-muted-foreground text-sm">Share up to 5000 messages via WhatsApp.</p>
+                        <p>LLM Enabled</p>
+                        <p className="text-muted-foreground text-sm">Chat to documents and data in ChatGPT style.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>500 MB Bot Storage</p>
-                        <p className="text-muted-foreground text-sm">Store data with 500 MB of bot storage.</p>
+                        <p className="text-muted-foreground text-sm">Store data with 500 MB of bot storage and your own Cloud drive.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
-                        <p>Publish Dialogs, Docs, Sheets</p>
-                        <p className="text-muted-foreground text-sm">Publish dialogs, documents, and spreadsheets.</p>
+                        <p>Train LLM bot with Dialogs, Docs, Sheets and more</p>
+                        <p className="text-muted-foreground text-sm">Train the using all General Bots BASIC keywords and features.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
@@ -238,72 +245,6 @@ export default function Page() {
             <Card className="w-full rounded-md">
               <CardHeader>
                 <CardTitle>
-                  <span className="flex flex-row gap-4 items-center font-normal">Corporate Plan</span>
-                </CardTitle>
-                <CardDescription>Optimized for enterprise needs, enhancing efficiency and collaboration.</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-col gap-8 justify-start">
-                  <p className="flex flex-row items-center gap-2 text-xl">
-                    <span className="text-4xl">$600.00</span>
-                    <span className="text-sm text-muted-foreground"> (once) + $1.00 / seat (120+)</span>
-                  </p>
-                  <div className="flex flex-col gap-4 justify-start">
-                    <div className="flex flex-row gap-4">
-                      <Check className="w-4 h-4 mt-2 text-primary" />
-                      <div className="flex flex-col">
-                        <p>100000 Messages</p>
-                        <p className="text-muted-foreground text-sm">Access up to 100000 messages on cloud or Microsoft Teams.</p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row gap-4">
-                      <Check className="w-4 h-4 mt-2 text-primary" />
-                      <div className="flex flex-col">
-                        <p>90000 Shared WhatsApp</p>
-                        <p className="text-muted-foreground text-sm">Share up to 90000 messages via WhatsApp.</p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row gap-4">
-                      <Check className="w-4 h-4 mt-2 text-primary" />
-                      <div className="flex flex-col">
-                        <p>1 TB Bot Storage</p>
-                        <p className="text-muted-foreground text-sm">Store data with 1 TB of bot storage.</p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row gap-4">
-                      <Check className="w-4 h-4 mt-2 text-primary" />
-                      <div className="flex flex-col">
-                        <p>Publish Dialogs, Docs, Sheets</p>
-                        <p className="text-muted-foreground text-sm">Publish dialogs, documents, and spreadsheets.</p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row gap-4">
-                      <Check className="w-4 h-4 mt-2 text-primary" />
-                      <div className="flex flex-col">
-                        <p>[Opt.] +10000 messages - $5 / month</p>
-                        <p className="text-muted-foreground text-sm">Additional 10000 messages for $5 per month.</p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row gap-4">
-                      <Check className="w-4 h-4 mt-2 text-primary" />
-                      <div className="flex flex-col">
-                        <p>[Opt.] Custom WhatsApp - Contact Us</p>
-                        <p className="text-muted-foreground text-sm">Custom WhatsApp number available upon request.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=Corporate">
-                    <Button className="gap-4">
-                      Create Bot <MoveRight className="w-4 h-4" />
-                    </Button>
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="w-full rounded-md">
-              <CardHeader>
-                <CardTitle>
                   <span className="flex flex-row gap-4 items-center font-normal">Enterprise</span>
                 </CardTitle>
                 <CardDescription>Designed for large enterprises, focusing on scalability and comprehensive support.</CardDescription>
@@ -318,7 +259,7 @@ export default function Page() {
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>Unlimited Messages</p>
-                        <p className="text-muted-foreground text-sm">Access to unlimited messaging capabilities.</p>
+                        <p className="text-muted-foreground text-sm">Access to unlimited LLM & messaging capabilities.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
@@ -339,7 +280,7 @@ export default function Page() {
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>Integration of IT Teams</p>
-                        <p className="text-muted-foreground text-sm">Seamless integration with your IT teams and infrastructure.</p>
+                        <p className="text-muted-foreground text-sm">Seamless integration with your multicloud IT teams and infrastructure.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
