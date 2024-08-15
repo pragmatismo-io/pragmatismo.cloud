@@ -30,7 +30,7 @@ export default function Page() {
                 <CardTitle>
                   <span className="flex flex-row gap-4 items-center font-normal">Open source</span>
                 </CardTitle>
-                <CardDescription>Do your self.</CardDescription>
+                <CardDescription>Do it yourself.</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-col gap-9 justify-start">
@@ -194,8 +194,8 @@ export default function Page() {
                     <div className="flex flex-row gap-4">
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
-                        <p>50000 Messages</p>
-                        <p className="text-muted-foreground text-sm">Access up to 50000 messages on cloud or Microsoft Teams.</p>
+                        <p>10000 Messages</p>
+                        <p className="text-muted-foreground text-sm">Access up to 10000 messages on cloud or Microsoft Teams.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
