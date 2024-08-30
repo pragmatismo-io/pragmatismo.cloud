@@ -182,3 +182,88 @@ const DataDialogsPage = () => (
 );
 
 export default DataDialogsPage;
+
+
+// Web Loaders
+// These loaders are used to load web resources.
+
+// 📄️ Cheerio
+// This example goes over how to load data from webpages using Cheerio. One document will be created for each webpage.
+
+// 📄️ Puppeteer
+// Only available on Node.js.
+
+// 📄️ Playwright
+// Only available on Node.js.
+
+// 📄️ Apify Dataset
+// This guide shows how to use Apify with LangChain to load documents from an Apify Dataset.
+
+// 📄️ AssemblyAI Audio Transcript
+// This covers how to load audio (and video) transcripts as document objects from a file using the AssemblyAI API.
+
+// 📄️ Azure Blob Storage Container
+// Only available on Node.js.
+
+// 📄️ Azure Blob Storage File
+// Only available on Node.js.
+
+// 📄️ Browserbase Loader
+// Description
+
+// 📄️ College Confidential
+// This example goes over how to load data from the college confidential website, using Cheerio. One document will be created for each page.
+
+// 📄️ Confluence
+// Only available on Node.js.
+
+// 📄️ Couchbase
+// Couchbase is an award-winning distributed NoSQL cloud database that delivers unmatched versatility, performance, scalability, and financial value for all of your cloud, mobile, AI, and edge computing applications.
+
+// 📄️ Figma
+// This example goes over how to load data from a Figma file.
+
+// 📄️ Firecrawl
+// This guide shows how to use Firecrawl with LangChain to load web data into an LLM-ready format using Firecrawl.
+
+// 📄️ GitBook
+// This example goes over how to load data from any GitBook, using Cheerio. One document will be created for each page.
+
+// 📄️ GitHub
+// This example goes over how to load data from a GitHub repository.
+
+// 📄️ Hacker News
+// This example goes over how to load data from the hacker news website, using Cheerio. One document will be created for each page.
+
+// 📄️ IMSDB
+// This example goes over how to load data from the internet movie script database website, using Cheerio. One document will be created for each page.
+
+// 📄️ Notion API
+// This guide will take you through the steps required to load documents from Notion pages and databases using the Notion API.
+
+// 📄️ PDF files
+// You can use this version of the popular PDFLoader in web environments.
+
+// 📄️ Recursive URL Loader
+// When loading content from a website, we may want to process load all URLs on a page.
+
+// 📄️ S3 File
+// Only available on Node.js.
+
+// 📄️ SearchApi Loader
+// This guide shows how to use SearchApi with LangChain to load web search results.
+
+// 📄️ SerpAPI Loader
+// This guide shows how to use SerpAPI with LangChain to load web search results.
+
+// 📄️ Sitemap Loader
+// This notebook goes over how to use the SitemapLoader class to load sitemaps into Documents.
+
+// 📄️ Sonix Audio
+// Only available on Node.js.
+
+// 📄️ Blockchain Data
+// This example shows how to load blockchain data, including NFT metadata and transactions for a contract address, via the sort.xyz SQL API.
+
+// 📄️ YouTube transcripts
+// This covers how to load youtube transcript into LangChain documents.

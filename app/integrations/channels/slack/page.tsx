@@ -21,13 +21,17 @@ import { Badge } from "@/components/ui/badge";
             </p>
           </div>
           <div className="flex flex-row gap-4">
-            <Button size="lg" className="gap-4" variant="outline">
-              Jump on a Call <PhoneCall className="w-4 h-4" />
-            </Button>
-            <Button size="lg" className="gap-4">
-              Get Started <MoveRight className="w-4 h-4" />
-            </Button>
-          </div>
+              <a href="tel:+552140402160">
+                <Button size="lg" className="gap-4" variant="outline">
+                  Jump on a call <PhoneCall className="w-4 h-4" />
+                </Button>
+              </a>
+              <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=FREE">
+                <Button size="lg" className="gap-4">
+                  Create Bot <MoveRight className="w-4 h-4" />
+                </Button>
+              </a>
+            </div>
         </div>
         <div className="bg-muted rounded-md aspect-square"></div>
       </div>

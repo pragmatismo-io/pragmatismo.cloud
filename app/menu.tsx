@@ -94,10 +94,14 @@ export const TheMenu = () => {
   });
 
   return (
+
     <header className="w-full z-40 fixed top-0 left-0 bg-background">
       <div className="w-full m-0 p-0 text-xs text-right">
-         Suporte: <a href="tel:+552140402160">+55 21 4040-2160</a> |
+         <a href="https://docs.pragmatismo.cloud">Documentation</a> |
+         Support: <a href="tel:+552140402160">+55 21 4040-2160</a> |
+
       <Button size="sm" className="m-2 mr-6 gap-2">Pragmatismo Store </Button>
+      <div className="gtranslate_wrapper"></div>
       </div>
       <div className="justify-start items-center gap-4 lg:flex hidden flex-row">
         <div className="container relative mx-auto min-h-20 flex gap-4 flex-row lg:grid lg:grid-cols-3 items-center">

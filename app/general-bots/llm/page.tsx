@@ -17,17 +17,21 @@ export default function Page() {
             <div className="flex gap-4 flex-col">
               <h1 className="text-5xl md:text-7xl max-w-lg tracking-tighter text-left font-regular">Introducing General Bots® for Word™</h1>
               <p className="text-xl leading-relaxed tracking-tight text-muted-foreground max-w-md text-left">
-                Unleash the power of custom LLM functions with unparalleled simplicity, right from your Microsoft Word interface. With General Bots® for Word™, writing custom LLM functions becomes as easy as typing a document. Harness the advanced capabilities of GPT to craft intricate functions and automate complex tasks, all within the familiar environment of MS Word. Say goodbye to switching between multiple applications. General Bots® for Word™ seamlessly integrates with your existing
-                workflow, allowing you to write, edit, and execute custom LLM functions without ever leaving the comfort of Word.
+                Unleash the power of custom LLM functions with unparalleled simplicity, right from your Microsoft Word interface. With General Bots® for Word™, writing custom LLM functions becomes as easy as typing a document. Harness the advanced capabilities of GPT to craft intricate functions and automate complex tasks, all within the familiar environment of MS Word. Say goodbye to switching
+                between multiple applications. General Bots® for Word™ seamlessly integrates with your existing workflow, allowing you to write, edit, and execute custom LLM functions without ever leaving the comfort of Word.
               </p>
             </div>
             <div className="flex flex-row gap-4">
-              <Button size="lg" className="gap-4" variant="outline">
-                Jump on a call <PhoneCall className="w-4 h-4" />
-              </Button>
-              <Button size="lg" className="gap-4">
-                Sign up here <MoveRight className="w-4 h-4" />
-              </Button>
+              <a href="tel:+552140402160">
+                <Button size="lg" className="gap-4" variant="outline">
+                  Jump on a call <PhoneCall className="w-4 h-4" />
+                </Button>
+              </a>
+              <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=FREE">
+                <Button size="lg" className="gap-4">
+                  Create Bot <MoveRight className="w-4 h-4" />
+                </Button>
+              </a>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-8">
@@ -43,10 +47,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-
-
-
-
 
       <div className="w-full py-40 lg:py-40">
         <div className="container mx-auto">
@@ -86,11 +86,8 @@ export default function Page() {
               </div>
             </div>
             <div className="bg-muted rounded-md aspect-square">
-
               <Image src="/word-system-prompt.png" alt="LLM Documents" className="rounded-md" width={1024} height={1024} loading="lazy" />
-
             </div>
-
           </div>
         </div>
       </div>
@@ -102,13 +99,8 @@ export default function Page() {
               <Badge>Choose your LLM provider</Badge>
             </div>
             <div className="flex gap-2 flex-col">
-              <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">
-                General Bots uses a layer between you and providers
-              </h2>
-              <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-                Avoid vendor lock-in
-                complications by streamlining main LLM providers.
-              </p>
+              <h2 className="text-xl md:text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">General Bots uses a layer between you and providers</h2>
+              <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">Avoid vendor lock-in complications by streamlining main LLM providers.</p>
             </div>
           </div>
           <div className="flex justify-center items-center">
@@ -138,24 +130,17 @@ export default function Page() {
         </div>
       </div>
 
-
       <div className="container mt-40 mx-auto">
-      <div className="flex flex-col text-center bg-muted rounded-md p-4 lg:p-14 gap-8 items-center">
-        <div>
-          <Badge>You own the platform</Badge>
-        </div>
-        <div className="flex flex-col gap-2">
-          <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
-            The costs behind the gears are exposed.
-          </h3>
-          <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">
-            We provide clear insight into the expenses involved in utilizing our platform, empowering you to make informed decisions.
-          </p>
+        <div className="flex flex-col text-center bg-muted rounded-md p-4 lg:p-14 gap-8 items-center">
+          <div>
+            <Badge>You own the platform</Badge>
+          </div>
+          <div className="flex flex-col gap-2">
+            <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">The costs behind the gears are exposed.</h3>
+            <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl">We provide clear insight into the expenses involved in utilizing our platform, empowering you to make informed decisions.</p>
+          </div>
         </div>
       </div>
-    </div>
-
-
 
       <div className="container mx-auto">
         <div className="grid border rounded-lg container py-8 grid-cols-4 gap-8 items-center lg:grid-cols-5">
@@ -165,9 +150,7 @@ export default function Page() {
                 <Badge variant="outline">Platform</Badge>
               </div>
               <div className="flex gap-2 flex-col">
-                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                  LLM architecture of the orchestrator.
-                </p>
+                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">LLM architecture of the orchestrator.</p>
               </div>
             </div>
             <div className="grid lg:pl-6 grid-cols-1 sm:grid-cols-1 items-start lg:grid-cols-1 gap-6">
@@ -175,27 +158,21 @@ export default function Page() {
                 <Check className="w-4 h-4 mt-2 text-primary" />
                 <div className="flex flex-col gap-1">
                   <p>Easy to use</p>
-                  <p className="text-muted-foreground text-sm">
-                    We&apos;ve made it easy to use and understand.
-                  </p>
+                  <p className="text-muted-foreground text-sm">We&apos;ve made it easy to use and understand.</p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-4 h-4 mt-2 text-primary" />
                 <div className="flex flex-col gap-1">
                   <p>Fast and reliable</p>
-                  <p className="text-muted-foreground text-sm">
-                    We&apos;ve made it fast and reliable.
-                  </p>
+                  <p className="text-muted-foreground text-sm">We&apos;ve made it fast and reliable.</p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-4 h-4 mt-2 text-primary" />
                 <div className="flex flex-col gap-1">
                   <p>Beautiful and modern</p>
-                  <p className="text-muted-foreground text-sm">
-                    We&apos;ve made it beautiful and modern.
-                  </p>
+                  <p className="text-muted-foreground text-sm">We&apos;ve made it beautiful and modern.</p>
                 </div>
               </div>
             </div>
@@ -205,13 +182,9 @@ export default function Page() {
           </div>
         </div>
       </div>
-
-
-
     </div>
   );
 }
-
 
 // Use the code to automate customer service inquiries by training your GPT-3 based AI assistant to respond to common complaints and questions in your business.
 // You can use the code to generate automated reports and summaries based on data scraped from your company’s website or social media platforms.
