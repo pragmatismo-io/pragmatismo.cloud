@@ -72,10 +72,6 @@ export default function Page() {
           </div>
           <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
           </div>
-          <div className="relative mt-16 h-80 lg:mt-8">
-            Pragmatismo provides a variety of services designed to help clients leverage technology for business growth and efficiency.
-
-          </div>
         </div>
 
         <img

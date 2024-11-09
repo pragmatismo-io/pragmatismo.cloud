@@ -14,7 +14,7 @@ const AboutPage = () => (
             </div>
             <div className="flex gap-2 flex-col">
               <h2 className="text-3xl lg:text-5xl tracking-tighter max-w-xl text-left font-regular">
-                Custom AI Assistants and LLM Algorithms
+                Pragmatismo: Custom AI Automation
               </h2>
               <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
                 We specialize in crafting bespoke virtual assistants and artificial intelligence algorithms as pluggable services.
@@ -54,7 +54,17 @@ const AboutPage = () => (
             </div>
           </div>
         </div>
-        <div className="bg-muted rounded-md aspect-square"></div>
+        <div className="rounded-md aspect-square">
+        <img
+          className="w-[calc(100%-800px)] absolute right-[110px] top-[160px]"
+          src="/pragma-agent.png"
+          alt="Pragmatismo Engine"
+          width={922}
+          height={1807}
+        />
+
+
+        </div>
       </section>
 
       {/* Section 2 - LLM and Arts */}
@@ -120,7 +130,7 @@ const AboutPage = () => (
               <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
                 We accompany enterprises in their conversational journey, emphasizing integration through Bots, Big Data & Analytics, Machine Learning, and IoT.
               </p>
-            </div>
+              </div>
           </div>
           <div className="grid lg:pl-6 grid-cols-1 sm:grid-cols-3 items-start lg:grid-cols-1 gap-6">
             {/* Cortana Intelligence Suite */}
