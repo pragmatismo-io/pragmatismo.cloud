@@ -41,7 +41,7 @@ const EssentialResourcesPage = () => (
               <tr>
                 <td>API Documentation</td>
                 <td>Comprehensive API documentation for General Bots.</td>
-                <td><a href="https://gb.pragmatismo.cloud/docs/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">API Documentation</a></td>
+                <td><a href="https://generalbots.online/docs/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">API Documentation</a></td>
               </tr>
               <tr>
                 <td>BotServer</td>

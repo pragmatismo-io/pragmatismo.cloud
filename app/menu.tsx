@@ -315,28 +315,28 @@ export const TheMenu = () => {
                     <ul className="List one">
                       <li>
                         <div className="ListItemHeading">Small Business</div>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=crm.gbai">
+                        <a className="ListItemLink" href="https://generalbots.online/PROD-GeneralBots006?dialog=new&template=crm.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
 
                           <p className="ListItemText">CRM</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new?template=mycompany.gbai">
+                        <a className="ListItemLink" href="https://generalbots.online/PROD-GeneralBots006?dialog=new?template=mycompany.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">My Company</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=restaurant.gbai">
+                        <a className="ListItemLink" href="https://generalbots.online/PROD-GeneralBots006?dialog=new&template=restaurant.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">Restaurant</p>
                         </a>
                       </li>
                       <li>
                         <div className="ListItemHeading">Corporate</div>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=recruitment.gbai">
+                        <a className="ListItemLink" href="https://generalbots.online/PROD-GeneralBots006?dialog=new&template=recruitment.gbai">
                           <Image src="/icons/general-bots.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">Recruitment</p>
                         </a>
                         <div className="ListItemHeading">Enterprise</div>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?dialog=new&template=ADResetPassword.gbapp">
+                        <a className="ListItemLink" href="https://generalbots.online/PROD-GeneralBots006?dialog=new&template=ADResetPassword.gbapp">
                           <Image src="/icons/entra.svg" alt="Pragmatismo Logo" width={32} height={32} className="rounded-md   inline-block m-2" loading="lazy" />
                           <p className="ListItemText">ADResetPassword.gbapp</p>
                         </a>
@@ -387,11 +387,11 @@ export const TheMenu = () => {
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Blog</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pragmatismohelpcenter">
+                        <a className="ListItemLink" href="https://generalbots.online/pragmatismohelpcenter">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Help center</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pragmatismostatus">
+                        <a className="ListItemLink" href="https://generalbots.online/pragmatismostatus">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Pragmatismo Cloud Status</p>
                         </a>
@@ -402,7 +402,7 @@ export const TheMenu = () => {
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText">Become a Partner</p>
                         </a>
-                        <a className="ListItemLink" href="https://gb.pragmatismo.cloud/pragmatismopartner">
+                        <a className="ListItemLink" href="https://generalbots.online/pragmatismopartner">
                           <GrResources className="ml-2 mr-1 h-6 w-8  inline-block" style={{ color: "gray" }} />
                           <p className="ListItemText ">Partner Bot</p>
                         </a>

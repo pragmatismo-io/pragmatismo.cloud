@@ -84,7 +84,7 @@ const PartnerProgramPage = () => (
           <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-regular">Join Us and Start Growing</h2>
           <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground">Ready to take the next step? Apply to become a partner with General Bots and start leveraging our resources and network to grow your business. We’re excited to collaborate with you and achieve great things together.</p>
           <div className="flex gap-10 pt-12 flex-col w-full">
-            <a href="https://gb.pragmatismo.cloud/pragmatismopartner">
+            <a href="https://generalbots.online/pragmatismopartner">
               <Button size="lg" className="gap-4">
                 Apply to Become a Partner
               </Button>

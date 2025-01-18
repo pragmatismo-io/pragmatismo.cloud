@@ -27,7 +27,7 @@ const GeneralBotsPage = () => (
                   Jump on a call <PhoneCall className="w-4 h-4" />
                 </Button>
               </a>
-              <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=FREE">
+              <a href="https://generalbots.online/PROD-GeneralBots006?p=FREE">
                 <Button size="lg" className="gap-4">
                   Create Bot <MoveRight className="w-4 h-4" />
                 </Button>

@@ -85,7 +85,7 @@ export default function Page() {
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>Web channel</p>
-                        <p className="text-muted-foreground text-sm">1.000 free messages in gb.pragmatismo.cloud/yourbothere.</p>
+                        <p className="text-muted-foreground text-sm">1.000 free messages in generalbots.online/yourbothere.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
@@ -103,7 +103,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=FREE">
+                  <a href="https://generalbots.online/PROD-GeneralBots006?p=FREE">
                     <Button className="gap-4">
                       Create Bot <MoveRight className="w-4 h-4" />
                     </Button>
@@ -130,7 +130,7 @@ export default function Page() {
                       <Check className="w-4 h-4 mt-2 text-primary" />
                       <div className="flex flex-col">
                         <p>Web channel</p>
-                        <p className="text-muted-foreground text-sm">Access up to 5000 messages on gb.pragmatismo.cloud/yourbothere.</p>
+                        <p className="text-muted-foreground text-sm">Access up to 5000 messages on generalbots.online/yourbothere.</p>
                       </div>
                     </div>
                     <div className="flex flex-row gap-4">
@@ -169,7 +169,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=Personal">
+                  <a href="https://generalbots.online/PROD-GeneralBots006?p=Personal">
                     <Button className="gap-4">
                       Create Bot <MoveRight className="w-4 h-4" />
                     </Button>
@@ -234,7 +234,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006?p=SMB">
+                  <a href="https://generalbots.online/PROD-GeneralBots006?p=SMB">
                     <Button className="gap-4">
                       Create Bot <MoveRight className="w-4 h-4" />
                     </Button>

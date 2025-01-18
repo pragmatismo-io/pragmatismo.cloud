@@ -99,10 +99,13 @@ export const TheFooter = () => {
                 <p>+55 21 4040-2160</p>
               </div>
               <div className="text-xs flex flex-col text-sm max-w-lg leading-relaxed tracking-tight text-background/75 text-left">
-              Copyright © 2016-2024 Pragmatismo. <br/>
-              CNPJ 35.973.500/0001-94. <br/>
+              Copyright © 2016-2025 Pragmatismo. <br/>
+              <br/> 
+              Pragmatismo Inovações Ltda.<br/> 
+              Avenida Rio Branco, 177, Sala 201 a 2201<br/>
+              Rio de Janeiro - Brasil<br/> 
+              CNPJ: 40.293.841/0001-59<br/> 
               DUNS Number: 926754884<br/>
-              RUA FERNANDO AMARO, 881 | ALTO DA RUA XV 80045-230 CURITIBA, PR <br/>
               </div>
             </div>
             <div className="flex flex-col text-sx max-w-lg leading-relaxed tracking-tight text-background/75 text-left">

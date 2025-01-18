@@ -64,7 +64,7 @@ export default function Page() {
               Do automation the self way. Do your work from your WhatsApp or any channel.
             </p>
             <div>
-            <a href="https://gb.pragmatismo.cloud/PROD-GeneralBots006" className="text-sm font-semibold leading-6 text-white nowrap">
+            <a href="https://generalbots.online/PROD-GeneralBots006" className="text-sm font-semibold leading-6 text-white nowrap">
               Create Bot <span aria-hidden="true">→</span>
             </a>
               

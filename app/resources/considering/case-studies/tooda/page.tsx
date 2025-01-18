@@ -122,7 +122,7 @@ const CaseStudyPage = () => (
                 Schedule a Demo <PhoneCall className="w-4 h-4" />
               </Button>
             </a>
-            <a href="https://gb.pragmatismo.cloud/docs/">
+            <a href="https://generalbots.online/docs/">
               <Button size="lg" className="gap-4">
                 Explore API Docs <MoveRight className="w-4 h-4" />
               </Button>
