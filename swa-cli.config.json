@@ -5,7 +5,7 @@
       "appLocation": ".",
       "outputLocation": "out",
       "appName": "pragmatismo.cloud",
-      "resourceGroup": "PROD-Pragmatismo"
+      "resourceGroup": "PROD-WebSites"
     }
   }
 }

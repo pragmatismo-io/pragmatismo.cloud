@@ -105,6 +105,12 @@ export default function Page() {
           </div>
           <div className="flex justify-center items-center">
             <div className="grid text-left grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 w-full gap-2">
+            <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
+                <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                  <Image src="/deep-seek.svg" alt="Deep Seek LLM" className="rounded-md" width={200} height={200} loading="lazy" />
+                </p>
+              </div>
+
               <div className="flex gap-0 flex-col justify-between p-6 border rounded-md">
                 <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
                   <Image src="/gpt4all.svg" alt="GPT4All LLM" className="rounded-md" width={200} height={200} loading="lazy" />
