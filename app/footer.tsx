@@ -57,7 +57,7 @@ export const TheFooter = () => {
         },
         {
           title: "Help Center",
-          href: "https://help.pragmatismo.cloud",
+          href: "https://help.pragmatismo.com.br",
         },
         {
           title: "How to become a Partner",
@@ -69,7 +69,7 @@ export const TheFooter = () => {
         },
         {
           title: "Blog",
-          href: "https://blog.pragmatismo.cloud",
+          href: "https://blog.pragmatismo.com.br",
         },
         {
           title: "Contact us",

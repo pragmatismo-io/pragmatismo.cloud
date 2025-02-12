@@ -97,7 +97,7 @@ export const TheMenu = () => {
 
     <header className="w-full z-40 fixed top-0 left-0 bg-background">
       <div className="w-full m-0 p-0 text-xs text-right">
-         <a href="https://docs.pragmatismo.cloud">Documentation</a> |
+         <a href="https://docs.pragmatismo.com.br">Documentation</a> |
          Support: <a href="tel:+552140402160">+55 21 4040-2160</a> |
 
       <Button size="sm" className="m-2 mr-6 gap-2">Pragmatismo Store </Button>

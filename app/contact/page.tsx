@@ -31,7 +31,7 @@ export default function Page() {
               <div className="flex flex-col gap-1">
                 <p>Schedule a demonstration meeting</p>
                 <p className="text-muted-foreground text-sm">
-                  Pragmatismo specializes in automation, chatbot development, and system integration through General Bots. <a href="https://outlook.office365.com/book/Pragmatismo1@pragmatismo.cloud/">Schedule a demonstration today</a> to see our solutions in action!
+                  Pragmatismo specializes in automation, chatbot development, and system integration through General Bots. <a href="https://outlook.office365.com/book/Pragmatismo1@pragmatismo.com.br/">Schedule a demonstration today</a> to see our solutions in action!
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Page() {
               <div className="flex flex-col gap-1">
                 <p>Send us a message</p>
                 <p className="text-muted-foreground text-sm">
-                <p className="text-muted-foreground text-sm">Or send us a message about your software consulting needs via email at <a href="mailto:info@pragmatismo.cloud">info@pragmatismo.cloud</a>. Our team will be glad to assist you with any inquiries you may have.</p>
+                <p className="text-muted-foreground text-sm">Or send us a message about your software consulting needs via email at <a href="mailto:info@pragmatismo.com.br">info@pragmatismo.com.br</a>. Our team will be glad to assist you with any inquiries you may have.</p>
 
                 </p>
               </div>
@@ -57,7 +57,7 @@ export default function Page() {
           <div className="justify-center flex items-center">
             <div className="rounded-md max-w flex flex-col border p-8 gap-11">
               <p>Schedule here:</p>
-              <a href="mailto:sales@pragmatismo.cloud">
+              <a href="mailto:sales@pragmatismo.com.br">
                 <Button className="gap-4 w-full p-2">
                   Book the meeting <MoveRight className="w-4 h-4 mr-10" />
                 </Button>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Home Page -->
     <url>
-        <loc>https://pragmatismo.cloud/</loc>
+        <loc>https://pragmatismo.com.br/</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -10,7 +10,7 @@
 
     <!-- About Us Page -->
     <url>
-        <loc>https://pragmatismo.cloud/about</loc>
+        <loc>https://pragmatismo.com.br/about</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
     <!-- General Bots Page -->
     <url>
-        <loc>https://pragmatismo.cloud/general-bots</loc>
+        <loc>https://pragmatismo.com.br/general-bots</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -26,7 +26,7 @@
 
     <!-- Features Page -->
     <url>
-        <loc>https://pragmatismo.cloud/features</loc>
+        <loc>https://pragmatismo.com.br/features</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -34,7 +34,7 @@
 
     <!-- Integrations Page -->
     <url>
-        <loc>https://pragmatismo.cloud/integrations</loc>
+        <loc>https://pragmatismo.com.br/integrations</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -42,7 +42,7 @@
 
     <!-- Templates Page -->
     <url>
-        <loc>https://pragmatismo.cloud/templates</loc>
+        <loc>https://pragmatismo.com.br/templates</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -50,7 +50,7 @@
 
     <!-- Resources Page -->
     <url>
-        <loc>https://pragmatismo.cloud/resources</loc>
+        <loc>https://pragmatismo.com.br/resources</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -58,7 +58,7 @@
 
     <!-- ESG Page -->
     <url>
-        <loc>https://pragmatismo.cloud/esg</loc>
+        <loc>https://pragmatismo.com.br/esg</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -66,7 +66,7 @@
 
     <!-- Pricing Page -->
     <url>
-        <loc>https://pragmatismo.cloud/pricing</loc>
+        <loc>https://pragmatismo.com.br/pricing</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -74,7 +74,7 @@
 
     <!-- Contact Page -->
     <url>
-        <loc>https://pragmatismo.cloud/contact</loc>
+        <loc>https://pragmatismo.com.br/contact</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -82,21 +82,21 @@
 
     <!-- Sub-pages under General Bots -->
     <url>
-        <loc>https://pragmatismo.cloud/general-bots/llm</loc>
+        <loc>https://pragmatismo.com.br/general-bots/llm</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/general-bots/vector-retrieval</loc>
+        <loc>https://pragmatismo.com.br/general-bots/vector-retrieval</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/general-bots/open-source</loc>
+        <loc>https://pragmatismo.com.br/general-bots/open-source</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -104,63 +104,63 @@
 
     <!-- Sub-pages under Features -->
     <url>
-        <loc>https://pragmatismo.cloud/features/ai-search</loc>
+        <loc>https://pragmatismo.com.br/features/ai-search</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/content-generation</loc>
+        <loc>https://pragmatismo.com.br/features/content-generation</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/bot-factory</loc>
+        <loc>https://pragmatismo.com.br/features/bot-factory</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/talk-to-data</loc>
+        <loc>https://pragmatismo.com.br/features/talk-to-data</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/broadcast</loc>
+        <loc>https://pragmatismo.com.br/features/broadcast</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/trainning</loc>
+        <loc>https://pragmatismo.com.br/features/trainning</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/web-automation</loc>
+        <loc>https://pragmatismo.com.br/features/web-automation</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/llm-tools</loc>
+        <loc>https://pragmatismo.com.br/features/llm-tools</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/features/create-apis-in-word</loc>
+        <loc>https://pragmatismo.com.br/features/create-apis-in-word</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -168,63 +168,63 @@
 
     <!-- Sub-pages under Integrations -->
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/whatsapp</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/whatsapp</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/sms</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/sms</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/web-chat</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/web-chat</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/instagram</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/instagram</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/email</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/email</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/microsoft-teams</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/microsoft-teams</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/google-chat</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/google-chat</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/facebook-pages</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/facebook-pages</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/integrations/channels/slack</loc>
+        <loc>https://pragmatismo.com.br/integrations/channels/slack</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -232,35 +232,35 @@
 
     <!-- Sub-pages under Templates -->
     <url>
-        <loc>https://pragmatismo.cloud/templates/welcome</loc>
+        <loc>https://pragmatismo.com.br/templates/welcome</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/templates/onboarding</loc>
+        <loc>https://pragmatismo.com.br/templates/onboarding</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/templates/appointment-confirmation</loc>
+        <loc>https://pragmatismo.com.br/templates/appointment-confirmation</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/templates/order-confirmation</loc>
+        <loc>https://pragmatismo.com.br/templates/order-confirmation</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
 
     <url>
-        <loc>https://pragmatismo.cloud/templates/feedback-request</loc>
+        <loc>https://pragmatismo.com.br/templates/feedback-request</loc>
         <lastmod>2024-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>

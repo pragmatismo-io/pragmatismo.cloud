@@ -21,8 +21,8 @@ mkdir projects
 cd projects
 
 # 5. Clone and setup project
-git clone https://github.com/pragmatismo-io/pragmatismo.cloud
-cd pragmatismo.cloud
+git clone https://github.com/pragmatismo-io/pragmatismo.com.br
+cd pragmatismo.com.br
 npm install
 npm run dev
 ```
@@ -49,8 +49,8 @@ mkdir projects
 cd projects
 
 # 6. Clone and setup project
-git clone https://github.com/pragmatismo-io/pragmatismo.cloud
-cd pragmatismo.cloud
+git clone https://github.com/pragmatismo-io/pragmatismo.com.br
+cd pragmatismo.com.br
 npm install
 npm run dev
 ```
@@ -77,8 +77,8 @@ mkdir projects
 cd projects
 
 # 5. Clone and setup project
-git clone https://github.com/pragmatismo-io/pragmatismo.cloud
-cd pragmatismo.cloud
+git clone https://github.com/pragmatismo-io/pragmatismo.com.br
+cd pragmatismo.com.br
 npm install
 npm run dev
 

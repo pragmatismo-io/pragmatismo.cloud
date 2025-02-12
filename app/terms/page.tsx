@@ -145,7 +145,7 @@ export default function Page() {
         <p>All disputes arising out of or relating to these Terms or your use of the Site shall be resolved through binding arbitration on an individual basis. You waive any right to participate in a class action or class-wide arbitration.</p>
 
         <h2>11. Contact Information</h2>
-        <p>If you have any questions about these Terms, please contact us at <a href="mailto:info@pragmatismo.cloud">info@pragmatismo.cloud</a>.</p>
+        <p>If you have any questions about these Terms, please contact us at <a href="mailto:info@pragmatismo.com.br">info@pragmatismo.com.br</a>.</p>
     </div>
     </div>
 
